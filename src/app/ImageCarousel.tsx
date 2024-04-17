@@ -10,7 +10,7 @@ const ImageCarousel = () => {
   const [expandedImageIndex, setExpandedImageIndex] = useState(0);
 
   return (
-    <div className='flex flex-row mx-[10%] gap-8'>
+    <div className='flex flex-row gap-8'>
       <div 
         className={`flex flex-row relative w-[15%] transition-[width] ease-in-out h-[400px] ${expandedImageIndex === 0 && 'w-[55%]'}`}
         onMouseOver={() => setExpandedImageIndex(0)}

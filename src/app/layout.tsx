@@ -3,6 +3,7 @@ import { LanguageProvider } from "./LanguageProvider";
 import Navbar from "./Navbar";
 import { cookies } from "next/headers";
 import { epilogue } from "./Fonts";
+import BottomBar from "./BottomBar";
 
 export default function RootLayout({
   children,
@@ -25,6 +26,7 @@ export default function RootLayout({
         <LanguageProvider initialLanguage={initialLanguage}>
           <Navbar />
           {children}
+          <BottomBar />
         </LanguageProvider>
       </body>
     </html>
