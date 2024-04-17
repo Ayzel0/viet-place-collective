@@ -1,10 +1,8 @@
 import "./globals.css";
 import { LanguageProvider } from "./LanguageProvider";
 import Navbar from "./Navbar";
-import { Epilogue } from 'next/font/google';
 import { cookies } from "next/headers";
-
-const epilogue = Epilogue({ subsets: ['latin', 'vietnamese'] });
+import { epilogue } from "./Fonts";
 
 export default function RootLayout({
   children,
