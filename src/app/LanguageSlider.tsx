@@ -9,6 +9,8 @@ export default function LanguageSlider() {
   const handleLanguageChange = () => {
     if (language === 'english') {
       setLanguage('vietnamese');
+    } else if (language === 'vietnamese') {
+      setLanguage('english');
     } else {
       setLanguage('english');
     }

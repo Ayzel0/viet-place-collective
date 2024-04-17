@@ -1,6 +1,7 @@
 'use client';
 
-import { createContext, useContext, useState, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import Cookies from 'js-cookie';
 
 const LanguageContext = createContext({
   language: 'english',
@@ -8,11 +9,16 @@ const LanguageContext = createContext({
 });
 
 interface LanguageProviderProps {
-  children: ReactNode
+  children: ReactNode,
+  initialLanguage: string
 }
 
-export function LanguageProvider({children}: LanguageProviderProps) {
-  const [language, setLanguage] = useState('english')
+export function LanguageProvider({children, initialLanguage}: LanguageProviderProps) {
+  const [language, setLanguage] = useState(initialLanguage);
+
+  useEffect(() => {
+    Cookies.set('language', language)
+  }, [language]);
 
   return (
     <LanguageContext.Provider value={{language, setLanguage}}>

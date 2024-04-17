@@ -6,7 +6,6 @@ import { useLanguage } from "./LanguageProvider";
 
 const Navbar = () => {
   const { language, setLanguage } = useLanguage();
-  console.log(language);
 
   return (
     <div className='flex flex-row p-8 items-center'>
