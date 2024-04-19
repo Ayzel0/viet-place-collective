@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ImageCarousel from "./ImageCarousel";
 import { cookies } from 'next/headers';
-import { fraunces } from "./Fonts";
+import { fraunces } from "./fonts";
 
 export default async function Home() {
   const cookieStore = cookies();

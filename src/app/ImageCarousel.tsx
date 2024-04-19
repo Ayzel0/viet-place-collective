@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { fraunces } from "./Fonts";
+import { fraunces } from "./fonts";
 import { useLanguage } from "./LanguageProvider";
 
 const ImageCarousel = () => {
