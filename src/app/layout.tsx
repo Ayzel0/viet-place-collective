@@ -2,7 +2,7 @@ import "./globals.css";
 import { LanguageProvider } from "./LanguageProvider";
 import Navbar from "./Navbar";
 import { cookies } from "next/headers";
-import { epilogue } from "./Fonts";
+import { epilogue } from "./fonts";
 import BottomBar from "./BottomBar";
 
 export default function RootLayout({
