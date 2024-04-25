@@ -4,7 +4,7 @@ import { createContext, useContext, useState, useEffect, ReactNode } from 'react
 import Cookies from 'js-cookie';
 
 const LanguageContext = createContext({
-  language: 'english',
+  language: 'english', // default
   setLanguage: (lang: string) => {}
 });
 

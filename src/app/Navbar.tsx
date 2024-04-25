@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='flex flex-row p-8 items-center'>
       <div className='relative w-[100px] h-[100px]'>
-        <a>
+        <a href='/'>
           <Image 
             src={'/vpcLogo.png'}
             alt='VPC Logo'
@@ -22,19 +22,19 @@ const Navbar = () => {
       <div className='ml-auto'>
         <ul className='flex flex-row gap-10 text-white text-3xl items-center'>
           <li>
-            <a>{language === 'english' ? 'About' : 'Giới thiệu'}</a>
+            <a href='/about'>{language === 'english' ? 'About' : 'Giới thiệu'}</a>
           </li>
           <li>
-            <a>{language === 'english' ? 'News' : 'Tin tức'}</a>
+            <a href='/news'>{language === 'english' ? 'News' : 'Tin tức'}</a>
           </li>
           <li>
-            <a>{language === 'english' ? 'Support' : 'Quyên tặng'}</a>
+            <a href='/support'>{language === 'english' ? 'Support' : 'Quyên tặng'}</a>
           </li>
           <li>
-            <a>{language === 'english' ? 'Culture' : 'Văn hoá'}</a>
+            <a href='/about'>{language === 'english' ? 'Culture' : 'Văn hoá'}</a>
           </li>
           <li>
-            <a>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
+            <a href='/about'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
           </li>
           <li>
             <LanguageSlider />
