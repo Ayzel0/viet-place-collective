@@ -34,7 +34,7 @@ const Navbar = () => {
             <a href='/support'>{language === 'english' ? 'Support' : 'Ủng hộ'}</a>
           </li>
           <li>
-            <a href='/about'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
+            <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
           </li>
           <li>
             <LanguageSlider />
