@@ -1,13 +1,13 @@
 {
-    "vietnamese": {
+    "english": {
         "Donate": {
             "content": [
                 {
-                    "text": "How do Donations Help?",
+                    "text": "How do donations help?",
                     "type": "header1"
                 },
                 {
-                    "text": "Donations help VPC by doing blah blah blah",
+                    "text": "Donations are essential to continue the work that VPC is doing - we are a volunteer-run organization, so we need your help to cover operating and organizing costs. Thank you for supporting our anti-displacement efforts.",
                     "type": "normalText"
                 }
             ],
@@ -21,11 +21,11 @@
         "Follow Us": {
             "content": [
                 {
-                    "text": "Follow Us on Social Media",
+                    "text": "Follow us on social media",
                     "type": "header1"
                 },
                 {
-                    "text": "Follow our social media accounts to get the latest updates about our work.",
+                    "text": "Follow our social media accounts to get the latest updates about our work and to reach out!",
                     "type": "normalText"
                 }
             ],
@@ -43,11 +43,11 @@
         "Get Involved": {
             "content": [
                 {
-                    "text": "How do I get Involved?",
+                    "text": "How do I get involved?",
                     "type": "header1"
                 },
                 {
-                    "text": "VPC is a volunteer-run organization",
+                    "text": "VPC is a volunteer-run organization, and we are always looking for more volunteers. Share your contact information below and we'd love to talk to you!",
                     "type": "normalText"
                 }
             ],
@@ -61,7 +61,7 @@
         "Buy Merch": {
             "content": [
                 {
-                    "text": "Our Merch",
+                    "text": "Our merch",
                     "type": "header1"
                 },
                 {
@@ -77,7 +77,7 @@
             ]
         }
     },
-    "english": {
+    "vietnamese": {
         "Donate": {
             "content": [
                 {
