@@ -1,5 +1,10 @@
-import { text } from 'stream/consumers';
+"use client";
+
+import { useLanguage } from '../LanguageProvider';
+import { fraunces } from '../fonts';
+import DemandsTable from './DemandsTable';
 import AboutPageContentJSON from './aboutPageContent.json';
+import { cookies } from 'next/headers';
 
 interface IAboutPageContent {
   [language: string]: ITextContent[]
@@ -12,14 +17,20 @@ interface ITextContent {
 }
 
 const Page = () => {
+  const { language, setLanguage } = useLanguage();
   const aboutPageContent: IAboutPageContent = AboutPageContentJSON as IAboutPageContent;
 
   const processTextContent = (language: string) => {
     const renderTextContent = (textContent: ITextContent, index: number) => {
       let element;
+
+      // includes unique values cuz I didn't wanna bother putting those in json
       switch (textContent.type) {
         case 'normalText': 
           element = <span>{textContent.text}</span>
+          break;
+        case 'boldText':
+          element = <span className={`${fraunces.className} font-bold text-mint`}>{textContent.text}</span>
           break;
         case 'header1':
           element = <h1 id={textContent.text.split(' ').join('')} className='text-pale-yellow text-xl lg:text-3xl xl:text-4xl font-semibold my-8'>{textContent.text}</h1>
@@ -27,9 +38,14 @@ const Page = () => {
         case 'header2':
           element = <h2 id={textContent.text.split(' ').join('')} className='text-mint text-lg lg:text-2xl xl:text-3xl mt-8 mb-4'>{textContent.text}</h2>
           break;
+        case 'header3':
+          element = <h3 id={textContent.text.split(' ').join('')} className={`mb-4 mt-8 text-tan lg:text-xl xl:text-2xl ${fraunces.className}`}>{textContent.text}</h3>
+          break;
         case 'link':
           element = <span className='text-mint underline'><a href={textContent.href}>{textContent.text}</a></span>
           break;
+        case 'demand3Table':
+          element = <DemandsTable />
       }
       return element;
     }
@@ -59,8 +75,8 @@ const Page = () => {
         </div>
       </div>
 
-      <div className='lg:col-span-3'>
-        {processTextContent('english')}
+      <div className='lg:col-span-3 mb-10'>
+        {processTextContent(language)}
       </div>
     </div>
   )

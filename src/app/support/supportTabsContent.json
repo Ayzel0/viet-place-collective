@@ -1,0 +1,158 @@
+{
+    "vietnamese": {
+        "Donate": {
+            "content": [
+                {
+                    "text": "How do Donations Help?",
+                    "type": "header1"
+                },
+                {
+                    "text": "Donations help VPC by doing blah blah blah",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Donate",
+                    "link": "https://www.gofundme.com/f/support-vpc"
+                }
+            ]
+        },
+        "Follow Us": {
+            "content": [
+                {
+                    "text": "Follow Us on Social Media",
+                    "type": "header1"
+                },
+                {
+                    "text": "Follow our social media accounts to get the latest updates about our work.",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Facebook",
+                    "link": "https://www.facebook.com/avietplace"
+                },
+                {
+                    "text": "Instagram",
+                    "link": "https://www.instagram.com/avietplace/"
+                }
+            ]
+        },
+        "Get Involved": {
+            "content": [
+                {
+                    "text": "How do I get Involved?",
+                    "type": "header1"
+                },
+                {
+                    "text": "VPC is a volunteer-run organization",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Sign Up",
+                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
+                }
+            ]
+        },
+        "Buy Merch": {
+            "content": [
+                {
+                    "text": "Our Merch",
+                    "type": "header1"
+                },
+                {
+                    "text": "filler",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Store",
+                    "link": "https://www.google.com"
+                }
+            ]
+        }
+    },
+    "english": {
+        "Donate": {
+            "content": [
+                {
+                    "text": "How do Donations Help?",
+                    "type": "header1"
+                },
+                {
+                    "text": "Donations help VPC by doing blah blah blah",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Donate",
+                    "link": "https://www.gofundme.com/f/support-vpc"
+                }
+            ]
+        },
+        "Follow Us": {
+            "content": [
+                {
+                    "text": "Follow Us on Social Media",
+                    "type": "header1"
+                },
+                {
+                    "text": "Follow our social media accounts to get the latest updates about our work.",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Facebook",
+                    "link": "https://www.facebook.com/avietplace"
+                },
+                {
+                    "text": "Instagram",
+                    "link": "https://www.instagram.com/avietplace/"
+                }
+            ]
+        },
+        "Get Involved": {
+            "content": [
+                {
+                    "text": "How do I get Involved?",
+                    "type": "header1"
+                },
+                {
+                    "text": "VPC is a volunteer-run organization",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Sign Up",
+                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
+                }
+            ]
+        },
+        "Buy Merch": {
+            "content": [
+                {
+                    "text": "Our Merch",
+                    "type": "header1"
+                },
+                {
+                    "text": "filler",
+                    "type": "normalText"
+                }
+            ],
+            "links": [
+                {
+                    "text": "Store",
+                    "link": "https://www.google.com"
+                }
+            ]
+        }
+    }
+}

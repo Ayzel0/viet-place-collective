@@ -19,7 +19,6 @@ const NewsletterPanel = ({url}: {url: string}) => {
       const response = await fetch(`/api?url=${encodeURIComponent(url)}`);
       if (response.ok) {
         const responseJSON = await response.json()
-        console.log(responseJSON);
         setArticleData(responseJSON);
       } else {
         throw new Error('failed to fetch data');

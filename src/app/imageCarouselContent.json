@@ -1,0 +1,111 @@
+{
+    "english": {    
+        "1": {
+            "imagePath": "/edenCenterInterior.jpg",
+            "title": "About the Small\nArea Plan",
+            "buttons": [
+                {
+                    "text": "Read",
+                    "link": "https://www.fallschurchva.gov/DocumentCenter/View/18636/Final-East-End-Small-Area-Plan"
+                },
+                {
+                    "text": "Demands",
+                    "link": "/about#OurDemands"
+                }
+            ]
+        },
+        "2": {
+            "imagePath": "/lunarNewYear_dcist.jpg",
+            "title": "About Eden Center\nand Viet Place\nCollective",
+            "buttons": [
+                {
+                    "text": "FAQ",
+                    "link": "/about#FAQ"
+                },
+                {
+                    "text": "History",
+                    "link": "/about#History"
+                }
+            ]
+        },
+        "3": {
+            "imagePath": "/edenCenterNight.jpg",
+            "title": "Support VPC",
+            "buttons": [
+                {
+                    "text": "Donate",
+                    "link": "https://www.gofundme.com/f/support-vpc"
+                },
+                {
+                    "text": "Get Involved",
+                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
+                }
+            ]
+        },
+        "4": {
+            "imagePath": "/edenCenterStore.jpg",
+            "title": "Take Action",
+            "buttons": [
+                {
+                    "text": "Email FC City",
+                    "link": "https://docs.google.com/document/d/1fggQnFn3HdcH_1pLOqEK4b_e58XLcpqTU0ZmeiEey0k/view#heading=h.ishx17ddqtvf"
+                }
+            ]
+        }
+    },
+    "vietnamese":
+    {    
+        "1": {
+            "imagePath": "/edenCenterInterior.jpg",
+            "title": "About the Small\nArea Plan",
+            "buttons": [
+                {
+                    "text": "Read",
+                    "link": "https://www.fallschurchva.gov/DocumentCenter/View/18636/Final-East-End-Small-Area-Plan"
+                },
+                {
+                    "text": "Demands",
+                    "link": "/about"
+                }
+            ]
+        },
+        "2": {
+            "imagePath": "/lunarNewYear_dcist.jpg",
+            "title": "About Eden Center\nand Viet Place\nCollective",
+            "buttons": [
+                {
+                    "text": "FAQ",
+                    "link": "/about#FAQ"
+                },
+                {
+                    "text": "History",
+                    "link": "/about#History"
+                }
+            ]
+        },
+        "3": {
+            "imagePath": "/edenCenterNight.jpg",
+            "title": "Support VPC",
+            "buttons": [
+                {
+                    "text": "Donate",
+                    "link": "https://www.gofundme.com/f/support-vpc"
+                },
+                {
+                    "text": "Get Involved",
+                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
+                }
+            ]
+        },
+        "4": {
+            "imagePath": "/edenCenterStore.jpg",
+            "title": "Take Action",
+            "buttons": [
+                {
+                    "text": "Email FC City",
+                    "link": "https://docs.google.com/document/d/1fggQnFn3HdcH_1pLOqEK4b_e58XLcpqTU0ZmeiEey0k/view#heading=h.ishx17ddqtvf"
+                }
+            ]
+        }
+    }
+}

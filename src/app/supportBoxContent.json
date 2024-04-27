@@ -1,0 +1,14 @@
+{
+    "donate": {
+        "title": "Donate",
+        "text": "We collect donations to cover some of the costs to operate and organize. We are entirely volunteer-based and donations go a long way to help us serve the community and contribute to the vision of a more equitable future.",
+        "link": "https://www.gofundme.com/f/support-vpc",
+        "linkText": "Donate to VPC!"
+    },
+    "events": {
+        "title": "Events",
+        "text": "Lorem ipsum dolor sit amet",
+        "link": "https://google.com",
+        "linkText": "Sign Up Here!"
+    }
+}

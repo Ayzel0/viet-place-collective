@@ -24,9 +24,13 @@ export default function RootLayout({
     <html lang="en" className={`bg-dark-jade ${epilogue.className}`}>
       <body>
         <LanguageProvider initialLanguage={initialLanguage}>
-          <Navbar />
-          {children}
-          <BottomBar />
+          <div className='flex flex-col min-h-screen'>
+            <Navbar />
+            <div className='grow'>
+              {children}
+            </div>
+            <BottomBar />
+          </div>
         </LanguageProvider>
       </body>
     </html>

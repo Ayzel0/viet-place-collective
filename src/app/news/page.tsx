@@ -11,7 +11,7 @@ const Page = () => {
       <h1 className='text-mint text-4xl mt-8'>Our Newsletter</h1>
       <div className='h-1 w-full bg-pale-yellow rounded my-4' />
 
-      <h1 className='text-mint text-4xl mt-8'>Articles</h1>
+      <h1 className='text-mint text-4xl mt-8'>In the Press</h1>
       <div className='h-1 w-full bg-pale-yellow rounded my-4' />
       <div className="grid gap-8 grid-cols-3 mb-8">
         {newsletterLinks.map((link, index) => (
