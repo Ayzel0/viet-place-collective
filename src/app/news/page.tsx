@@ -8,8 +8,6 @@ const Page = () => {
 
   return (
     <div className='mx-[5%] lg:mx-[10%] xl:mx-[15%]'>
-      <h1 className='text-mint text-4xl mt-8'>Our Newsletter</h1>
-      <div className='h-1 w-full bg-pale-yellow rounded my-4' />
 
       <h1 className='text-mint text-4xl mt-8'>In the Press</h1>
       <div className='h-1 w-full bg-pale-yellow rounded my-4' />
