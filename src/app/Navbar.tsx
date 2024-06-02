@@ -22,16 +22,16 @@ const Navbar = () => {
       <div className='ml-auto'>
         <ul className='flex flex-row gap-10 text-white text-3xl items-center'>
           <li>
-            <a href='https://www.gofundme.com/f/support-vpc' className='rounded-full bg-mint text-charcoal py-3 px-6 hover:brightness-75'>{language === 'english' ? 'Donate' : 'Quyên tặng'}</a>
+            <a href='/support' className='text-black rounded-full bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Support' : 'Ủng hộ'}</a>
+          </li>
+          <li>
+            <a href='/faq'>{language === 'english' ? 'FAQ' : 'FAQ'}</a>
           </li>
           <li>
             <a href='/about'>{language === 'english' ? 'About' : 'Giới thiệu'}</a>
           </li>
           <li>
             <a href='/news'>{language === 'english' ? 'News' : 'Tin tức'}</a>
-          </li>
-          <li>
-            <a href='/support'>{language === 'english' ? 'Support' : 'Ủng hộ'}</a>
           </li>
           <li>
             <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
