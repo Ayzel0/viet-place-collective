@@ -5,28 +5,16 @@
             "type": "header1"
         },
         {
-            "text": "Is Eden Center going to be torn down?",
-            "type": "header2"
+            "question": "Is Eden Center going to be torn down?",
+            "answer": ""
         },
         {
-            "text": "No, there are currently no plans to tear down Eden Center, but the City of Falls Church has a redevelopment plan which would bring many changes to the area. Our concern is that this redevelopment plan will be enacted without listening to the needs of the businessowners in Eden Center, resulting in rising rents and forcing long-time businessowners to leave.",
-            "type": "normalText"
+            "question": "Why does anti-displacement matter?",
+            "answer": ""
         },
         {
-            "text": "Why does anti-displacement matter?",
-            "type": "header2"
-        },
-        {
-            "text": "The history of the Vietnamese community in DC is intertwined with displacement. Many of the Vietnamese immigrants who left their home country and came to the United States first opened stores in Little Saigon Clarendon while rents were low, but after the metro opened in the area and landlords increased rents by 500%, they were forced to leave and come to Eden Center. Today, Eden Center is a thriving community center for all Asian-Americans in the DMV area, but if we allow the cycle of displacement to rear its head once again, then this center is at risk of vanishing. \n\nWe've already seen the consequences of rising rents forcing out the local Asian-American population in DC's Chinatown, where the only remaining residents have to charter a shuttle into Virginia to even be able to buy groceries. As such, it's important to prioritize anti-displacement strategies when thinking about Eden Center's future.",
-            "type": "normalText"
-        },
-        {
-            "text": "What is VPC and what does VPC do?",
-            "type": "header2"
-        },
-        {
-            "text": "VPC is a volunteer-run organization which campaigns for inclusive and anti-displacement focused policy. VPC was formed in response to the East End Small Area Plan, which was drafted by the Falls Church City Council and puts forward plans to change Eden Center and the area around it. We felt that the proposal did not do enough to address the present and future needs of tenants in Eden Center, specifically regarding anti-displacement measures.",
-            "type": "normalText"
+            "question": "What is VPC and what does VPC do?",
+            "answer": "VPC is a volunteer-run organization which campaigns for inclusive and anti-displacement focused policy. VPC was formed in response to the East End Small Area Plan, which was drafted by the Falls Church City Council and puts forward plans to change Eden Center and the area around it. We felt that the proposal did not do enough to address the present and future needs of tenants in Eden Center, specifically regarding anti-displacement measures."
         }
     ]
 }
