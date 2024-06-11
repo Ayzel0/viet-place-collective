@@ -11,6 +11,7 @@ interface IImageCarouselContent {
     [key: string]: {
       imagePath: string,
       title: string,
+      subtext?: string,
       buttons: {
         text: string,
         link: string
@@ -55,6 +56,9 @@ const ImageCarousel = () => {
           {expandedImageIndex === index && (
             <div className='transition-all ease-in-out duration-500 flex flex-col items-center justify-center bg-medium-jade overflow-x-hidden w-[40%]'>
               <h2 className='text-white px-2 text-nowrap whitespace-pre-wrap text-2xl text-center'>{imageCarouselContent[language][key].title}</h2>
+              {imageCarouselContent[language][key].subtext &&
+                <p className='text-white text-sm px-4 my-4'>{imageCarouselContent[language][key].subtext}</p>
+              }
               {imageCarouselContent[language][key].buttons.map((button, index) => (
                 <a className='bg-charcoal rounded-md mt-2 w-[50%] text-center' key={index} href={button.link}>
                   <h3 className={`text-white py-2 text-lg text-nowrap ${fraunces.className}`}>{button.text}</h3>

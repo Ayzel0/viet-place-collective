@@ -25,9 +25,6 @@ const Navbar = () => {
             <a href='/support' className='text-black rounded-full bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Support' : 'Ủng hộ'}</a>
           </li>
           <li>
-            <a href='/faq'>{language === 'english' ? 'FAQ' : 'FAQ'}</a>
-          </li>
-          <li>
             <a href='/about'>{language === 'english' ? 'About' : 'Giới thiệu'}</a>
           </li>
           <li>

@@ -1,21 +1,25 @@
 "use client";
 
 import { useLanguage } from "./LanguageProvider";
-import SupportBoxContentJSON from './supportBoxContent.json';
+import IFrontPageContentJSON from './frontPageContent.json';
 import { fraunces } from "./fonts";
 
-interface ISupportBoxContent {
-  [boxTitle: string]: {
-    title: string,
-    text: string,
-    link: string,
-    linkText: string,
+interface IFrontPageContent {
+  supportBox: {
+    [boxTitle: string]: {
+      title: string,
+      text: string,
+      link: string,
+      linkText: string,
+    }
   }
 }
 
 const SupportBox = () => {
   const { language, setLanguage } = useLanguage();
-  const supportBoxContent: ISupportBoxContent = SupportBoxContentJSON as ISupportBoxContent;
+  const frontPageContent: IFrontPageContent = IFrontPageContentJSON as IFrontPageContent;
+  const supportBoxContent = frontPageContent.supportBox;
+  console.log(supportBoxContent);
 
   return (
     <div className='grid lg:grid-cols-3 gap-8 rounded-xl my-4'>

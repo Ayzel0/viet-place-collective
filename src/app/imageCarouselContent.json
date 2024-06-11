@@ -2,53 +2,49 @@
     "english": {    
         "1": {
             "imagePath": "/edenCenterInterior.jpg",
-            "title": "About the Small\nArea Plan",
+            "title": "About VPC",
+            "subtext": "We’re an all-volunteer grassroots organization that organizes for anti-displacement programs and Vietnamese cultural preservation in Northern Virginia.",
             "buttons": [
                 {
-                    "text": "Read",
-                    "link": "https://www.fallschurchva.gov/DocumentCenter/View/18636/Final-East-End-Small-Area-Plan"
+                    "text": "Our Work",
+                    "link": "/about"
                 },
                 {
-                    "text": "Demands",
-                    "link": "/about#OurDemands"
+                    "text": "Advocacy",
+                    "link": "/about"
+                },
+                {
+                    "text": "Reports",
+                    "link": "/about"
                 }
             ]
         },
         "2": {
             "imagePath": "/lunarNewYear_dcist.jpg",
-            "title": "About Eden Center\nand Viet Place\nCollective",
+            "title": "Get Involved",
             "buttons": [
                 {
-                    "text": "FAQ",
-                    "link": "/about#FAQ"
+                    "text": "Volunteer",
+                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
                 },
                 {
-                    "text": "History",
-                    "link": "/about#History"
+                    "text": "Donate",
+                    "link": "https://givebutter.com/c/O8i9zl"
                 }
             ]
         },
         "3": {
             "imagePath": "/edenCenterNight.jpg",
-            "title": "Support VPC",
+            "title": "ăn mừng",
+            "subtext": "Join us to celebrate VPC’s victories uplifting our community and Vietnamese small businesses!",
             "buttons": [
                 {
-                    "text": "Donate",
-                    "link": "https://www.gofundme.com/f/support-vpc"
+                    "text": "Get Tickets",
+                    "link": "https://givebutter.com/c/O8i9zl"
                 },
                 {
-                    "text": "Get Involved",
+                    "text": "All Events",
                     "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
-                }
-            ]
-        },
-        "4": {
-            "imagePath": "/edenCenterStore.jpg",
-            "title": "Take Action",
-            "buttons": [
-                {
-                    "text": "Email FC City",
-                    "link": "https://docs.google.com/document/d/1fggQnFn3HdcH_1pLOqEK4b_e58XLcpqTU0ZmeiEey0k/view#heading=h.ishx17ddqtvf"
                 }
             ]
         }
@@ -57,53 +53,49 @@
     {    
         "1": {
             "imagePath": "/edenCenterInterior.jpg",
-            "title": "About the Small\nArea Plan",
+            "title": "About VPC",
+            "subtext": "We’re an all-volunteer grassroots organization that organizes for anti-displacement programs and Vietnamese cultural preservation in Northern Virginia.",
             "buttons": [
                 {
-                    "text": "Read",
-                    "link": "https://www.fallschurchva.gov/DocumentCenter/View/18636/Final-East-End-Small-Area-Plan"
+                    "text": "Our Work",
+                    "link": "/about"
                 },
                 {
-                    "text": "Demands",
+                    "text": "Advocacy",
+                    "link": "/about"
+                },
+                {
+                    "text": "Reports",
                     "link": "/about"
                 }
             ]
         },
         "2": {
             "imagePath": "/lunarNewYear_dcist.jpg",
-            "title": "About Eden Center\nand Viet Place\nCollective",
+            "title": "Get Involved",
             "buttons": [
                 {
-                    "text": "FAQ",
-                    "link": "/about#FAQ"
+                    "text": "Volunteer",
+                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
                 },
                 {
-                    "text": "History",
-                    "link": "/about#History"
+                    "text": "Donate",
+                    "link": "https://givebutter.com/c/O8i9zl"
                 }
             ]
         },
         "3": {
             "imagePath": "/edenCenterNight.jpg",
-            "title": "Support VPC",
+            "title": "ăn mừng",
+            "subtext": "Join us to celebrate VPC’s victories uplifting our community and Vietnamese small businesses!",
             "buttons": [
                 {
-                    "text": "Donate",
-                    "link": "https://www.gofundme.com/f/support-vpc"
+                    "text": "Get Tickets",
+                    "link": "https://givebutter.com/c/O8i9zl"
                 },
                 {
-                    "text": "Get Involved",
+                    "text": "All Events",
                     "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
-                }
-            ]
-        },
-        "4": {
-            "imagePath": "/edenCenterStore.jpg",
-            "title": "Take Action",
-            "buttons": [
-                {
-                    "text": "Email FC City",
-                    "link": "https://docs.google.com/document/d/1fggQnFn3HdcH_1pLOqEK4b_e58XLcpqTU0ZmeiEey0k/view#heading=h.ishx17ddqtvf"
                 }
             ]
         }
