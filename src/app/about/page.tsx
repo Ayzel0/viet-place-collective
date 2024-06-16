@@ -11,7 +11,7 @@ import { cookies } from 'next/headers';
 interface IFAQContent {
   [language: string]: {
     question: string,
-    answer: string
+    answer: ITextContent[]
   }[]
 }
 
@@ -28,8 +28,9 @@ interface ITextContent {
 const Page = () => {
   const { language, setLanguage } = useLanguage();
   const aboutPageContent: IAboutPageContent = AboutPageContentJSON as IAboutPageContent;
+  const faqContent: IFAQContent = FAQContentJSON as IFAQContent;
 
-  const processTextContent = (language: string) => {
+  const processTextContent = (language: string, textColor: string) => {
     const renderTextContent = (textContent: ITextContent, index: number) => {
       let element;
 
@@ -77,7 +78,7 @@ const Page = () => {
     return (
       <div>
         {aboutPageContent[language].map((textContent, index) => (
-          <span key={index} className='text-tan whitespace-pre-wrap'>
+          <span key={index} className={`${textColor} text-tan whitespace-pre-wrap`}>
             {renderTextContent(textContent, index)}
           </span>
         ))}
@@ -100,11 +101,17 @@ const Page = () => {
       </div>
 
       <div className='lg:col-span-3'>
-        {processTextContent(language)}
-        {faqContent.map()
-
-        }
-        <ExpandingFAQBox question='hello' answer='world'/>
+        {processTextContent(language, 'text-white')}
+        <div className='my-8 mb-[250px]'>
+          {faqContent[language].map((obj, idx) => (
+            <div key={idx}>
+              <ExpandingFAQBox 
+                question={obj.question}
+                answer={obj.answer}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )

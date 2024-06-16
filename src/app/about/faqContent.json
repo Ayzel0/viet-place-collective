@@ -2,15 +2,59 @@
     "english": [
         {
             "question": "Is Eden Center going to be torn down?",
-            "answer": ""
+            "answer": [
+                {
+                    "text": "No, there are currently no plans to tear down Eden Center, but the City of Falls Church has a redevelopment plan (see ",
+                    "type": "normalText"
+                },
+                {
+                    "text": "East End Small Area Plan",
+                    "type": "italic"
+                },
+                {
+                    "text": ") which would bring many changes to the area. Without the input of the business owners in Eden Center, development may cause rising rents and displacement of long-time businesses.",
+                    "type": "normalText"
+                }
+            ]
         },
         {
             "question": "Why does anti-displacement matter?",
-            "answer": ""
-        },
-        {
-            "question": "What is VPC and what does VPC do?",
-            "answer": "VPC is a volunteer-run organization which campaigns for inclusive and anti-displacement focused policy. VPC was formed in response to the East End Small Area Plan, which was drafted by the Falls Church City Council and puts forward plans to change Eden Center and the area around it. We felt that the proposal did not do enough to address the present and future needs of tenants in Eden Center, specifically regarding anti-displacement measures."
+            "answer": [
+                {
+                    "text": "The history of the Vietnamese community in the DC metro area is intertwined with displacement (see ",
+                    "type": "normalText"
+                }, 
+                {
+                    "text": "Little Saigon Clarendon",
+                    "type": "italic"
+                },
+                {
+                    "text": "). Today, Eden Center is a thriving community hub for Vietnamese and other Asian Americans in the area, but if we allow redevelopment to happen without community input or protections, then the small businesses that give Eden Center its vibrancy will be at risk of displacement- mirroring the vanishing of Little Saigon Clarendon, the first community of Vietnamese immigrants established in the DMV after the Fall of Saigon.",
+                    "type": "normalText"
+                },
+                {
+                    "text": "\n\nWe've already seen the consequences of redevelopment and “revitalization” forcing out the Chinese community from DC's Chinatown- where the majority of businesses are international chains with their signs written in Chinese, one of the only remaining strips of Chinese-owned businesses are at risk of displacement for a luxury hotel, and the remaining Chinese residents ",
+                    "type": "normalText"
+                },
+                {
+                    "text": "are at risk of dispalcement as well",
+                    "type": "link",
+                    "href": "https://www.savechinatowndc.org/about"
+                },
+                {
+                    "text": ". Philadelphia's Chinatown is also ",
+                    "type": "normalText"
+                },
+                {
+                    "text": "under threat of redevelopment and displacement from a proposed new sports arena",
+                    "type": "link",
+                    "href": "https://www.google.com/url?q=https://apipennsylvania.org/chinatown/&sa=D&source=docs&ust=1718417425786774&usg=AOvVaw0-k17HtPBMyrMDEo6YIaeR"
+                },
+                {
+                    "text": ". As such, it's crucial to prioritize anti-displacement strategies when thinking about the future of the Vietnamese small businesses and our community at Eden Center.",
+                    "type": "normalText"
+                }
+            ]
         }
     ]
 }
