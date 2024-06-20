@@ -1,25 +1,9 @@
 {
-    "supportBox": {
-        "aboutEden": {
-            "title": "About Eden Center and VPC",
-            "text": "The history of Eden Center is a story of displacement and belonging. We want to preserve and build upon this history for generations to come.",
-            "link": "/about#History",
-            "linkText": "Read about Eden!"
-        },
-        "donate": {
-            "title": "Donate",
-            "text": "We collect donations to cover some of the costs to operate and organize. We are entirely volunteer-based and donations go a long way to help us serve the community and contribute to the vision of a more equitable future.",
-            "link": "https://www.gofundme.com/f/support-vpc",
-            "linkText": "Donate to VPC!"
-        },
-        "events": {
-            "title": "Get Involved",
-            "text": "If you'd like to get involved and personally help our anti-displacement efforts, we'd love for you to work with us!",
-            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform",
-            "linkText": "Sign Up Here!"
-        }
-    },
     "byTheNumbers": [
+        {
+            "amount": "200+",
+            "type": "people mobilized"
+        },
         {
             "amount": "47",
             "type": "news articles"
@@ -44,6 +28,84 @@
             "amount": "1",
             "type": "teach-in"
         }
+    ],
+    "inFallsChurch": [
+        {
+            "text": "What's Happening in Falls Church?",
+            "type": "header1"
+        },
+        {
+            "text": "Eden Center will not be redeveloped for now",
+            "type": "link",
+            "href": "/about#FAQ"
+        },
+        {
+            "text": ", but the surrounding area will develop with new retail stores, housing, and offices in the next 10 years. There will also be major road construction in Seven Corners to improve safety in the next 5 years. As the neighborhood changes, Viet Place Collective has advocated to ensure that the City of Falls Church will support our Vietnamese-owned small businesses. Let’s make sure the City of Falls Church keeps their promises to our community!",
+            "type": "normalText"
+        },
+        {
+            "text": "We're working towards:",
+            "type": "header2"
+        }
+    ],
+    "inFallsChurchUL": [
+        [
+            {
+                "text": "Funding anti-displacement programs",
+                "type": "boldText"
+            },
+            {
+                "text": " to preserve and protect small, Vietnamese businesses",
+                "type": "normalText"
+            }
+        ],
+        [
+            {
+                "text": "Investing in the public infrastructure",
+                "type": "boldText"
+            },
+            {
+                "text": " surrounding Eden Center, improving parking and safety",
+                "type": "normalText"
+            }
+        ],
+        [
+            {
+                "text": "Creating a Cultural District",
+                "type": "boldText"
+            },
+            {
+                "text": " around Eden Center called ",
+                "type": "normalText"
+            },
+            {
+                "text": "“Little Saigon”",
+                "type": "boldText"
+            }
+        ],
+        [
+            {
+                "text": "Honorary renaming",
+                "type": "boldText"
+            },
+            {
+                "text": " of Wilson Blvd to ",
+                "type": "normalText"
+            },
+            {
+                "text": "Saigon Blvd",
+                "type": "boldText"
+            }
+        ],
+        [
+            {
+                "text": "Public Art",
+                "type": "boldText"
+            },
+            {
+                "text": " surrounding Eden Center, by Vietnamese artists, for the Vietnamese community",
+                "type": "normalText"
+            }
+        ]
     ]
-    
 }

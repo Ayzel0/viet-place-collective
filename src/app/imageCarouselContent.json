@@ -1,7 +1,7 @@
 {
     "english": {    
         "1": {
-            "imagePath": "/edenCenterInterior.jpg",
+            "imagePath": "/frontPagePictures/SBAN.jpg",
             "title": "About VPC",
             "subtext": "We’re an all-volunteer grassroots organization that organizes for anti-displacement programs and Vietnamese cultural preservation in Northern Virginia.",
             "buttons": [
@@ -20,7 +20,7 @@
             ]
         },
         "2": {
-            "imagePath": "/lunarNewYear_dcist.jpg",
+            "imagePath": "/frontPagePictures/supportAntiGentrification.png",
             "title": "Get Involved",
             "buttons": [
                 {
@@ -34,7 +34,7 @@
             ]
         },
         "3": {
-            "imagePath": "/edenCenterNight.jpg",
+            "imagePath": "/frontPagePictures/anMungCelebration.png",
             "title": "ăn mừng",
             "subtext": "Join us to celebrate VPC’s victories uplifting our community and Vietnamese small businesses!",
             "buttons": [

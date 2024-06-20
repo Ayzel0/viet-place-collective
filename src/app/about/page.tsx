@@ -7,6 +7,7 @@ import ExpandingFAQBox from './ExpandingFAQBox';
 import AboutPageContentJSON from './aboutPageContent.json';
 import FAQContentJSON from './faqContent.json';
 import { cookies } from 'next/headers';
+import Image from 'next/image';
 
 interface IFAQContent {
   [language: string]: {
@@ -20,9 +21,10 @@ interface IAboutPageContent {
 }
 
 interface ITextContent {
-  text: string,
-  type: string,
+  text: string
+  type: string
   href?: string
+  imagePath?: string
 }
 
 const Page = () => {
@@ -36,6 +38,13 @@ const Page = () => {
 
       // includes unique values cuz I didn't wanna bother putting those in json
       switch (textContent.type) {
+        case 'image':
+          element = <Image 
+            src={textContent.imagePath as string}
+            alt={""}
+            width={1000}
+            height={1000}
+          />
         case 'normalText': 
           element = <span>{textContent.text}</span>
           break;
@@ -102,7 +111,7 @@ const Page = () => {
 
       <div className='lg:col-span-3'>
         {processTextContent(language, 'text-white')}
-        <div className='my-8 mb-[250px]'>
+        <div className='my-8 mb-[175px]'>
           {faqContent[language].map((obj, idx) => (
             <div key={idx}>
               <ExpandingFAQBox 

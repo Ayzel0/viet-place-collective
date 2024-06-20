@@ -77,7 +77,7 @@ const ExpandingFAQBox: React.FC<ExpectedProps> = ({ question, answer }) => {
       <div className='flex flex-col absolute w-full transition-all overflow-hidden'>
         <div className=''>
           <div 
-            className={`flex flex-row relative z-40 bg-mint py-2 px-4 items-center cursor-pointer`} 
+            className={`flex flex-row relative z-40 bg-mint py-2 px-4 items-center cursor-pointer transition-all duration-300 hover:brightness-75`} 
             onClick={handleExpandChange}
           >
             <div className='mr-auto'>

@@ -25,10 +25,13 @@ const Navbar = () => {
             <a href='/support' className='text-black rounded-full bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Support' : 'Ủng hộ'}</a>
           </li>
           <li>
-            <a href='/about'>{language === 'english' ? 'About' : 'Giới thiệu'}</a>
+            <a href='/about'>{language === 'english' ? 'About VPC' : 'Giới thiệu'}</a>
           </li>
           <li>
-            <a href='/news'>{language === 'english' ? 'News' : 'Tin tức'}</a>
+            <a href='/media'>{language === 'english' ? 'Media' : 'Tin tức'}</a>
+          </li>
+          <li>
+            <a href='/get_involved'>{language === 'english' ? 'Get Involved' : 'Tin tức'}</a>
           </li>
           <li>
             <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>

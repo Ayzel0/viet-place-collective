@@ -1,23 +1,6 @@
 {
     "english": [
         {
-            "question": "Is Eden Center going to be torn down?",
-            "answer": [
-                {
-                    "text": "No, there are currently no plans to tear down Eden Center, but the City of Falls Church has a redevelopment plan (see ",
-                    "type": "normalText"
-                },
-                {
-                    "text": "East End Small Area Plan",
-                    "type": "italic"
-                },
-                {
-                    "text": ") which would bring many changes to the area. Without the input of the business owners in Eden Center, development may cause rising rents and displacement of long-time businesses.",
-                    "type": "normalText"
-                }
-            ]
-        },
-        {
             "question": "Why does anti-displacement matter?",
             "answer": [
                 {
@@ -52,6 +35,23 @@
                 },
                 {
                     "text": ". As such, it's crucial to prioritize anti-displacement strategies when thinking about the future of the Vietnamese small businesses and our community at Eden Center.",
+                    "type": "normalText"
+                }
+            ]
+        },
+        {
+            "question": "Is Eden Center going to be torn down?",
+            "answer": [
+                {
+                    "text": "No, there are currently no plans to tear down Eden Center, but the City of Falls Church has a redevelopment plan (see ",
+                    "type": "normalText"
+                },
+                {
+                    "text": "East End Small Area Plan",
+                    "type": "italic"
+                },
+                {
+                    "text": ") which would bring many changes to the area. Without the input of the business owners in Eden Center, development may cause rising rents and displacement of long-time businesses.",
                     "type": "normalText"
                 }
             ]

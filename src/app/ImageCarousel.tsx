@@ -1,10 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { fraunces } from "./fonts";
 import { useLanguage } from "./LanguageProvider";
 import ImageCarouselContentJSON from './imageCarouselContent.json';
+import useWindowDimensions from "@/util/useWindowDimensions";
 
 interface IImageCarouselContent {
   [language: string]: {
@@ -21,10 +22,14 @@ interface IImageCarouselContent {
 }
 
 const ImageCarousel = () => {
+  const { height, width } = useWindowDimensions();
   const { language, setLanguage } = useLanguage();
+  const [isClient, setIsClient] = useState(false);
   const [expandedImageIndex, setExpandedImageIndex] = useState(0);
   const lastUpdateRef = useRef(Date.now());
   const imageCarouselContent: IImageCarouselContent = ImageCarouselContentJSON as IImageCarouselContent;
+
+  useEffect(() => { setIsClient(true) }, []);
 
   const handleMouseOver = (index: number) => {
     const now = Date.now();
@@ -36,39 +41,71 @@ const ImageCarousel = () => {
     }
   }
 
+  if (typeof width === 'undefined') {
+    return null;
+  }
+
   return (
-    <div className='flex flex-row gap-8' style={{ width: '100%', overflow: 'hidden' }}>
-      {Object.keys(imageCarouselContent[language]).map((key, index) => (
-        <div
-          key={index}
-          className={`flex flex-row relative transition-all ease-in-out duration-500 ${expandedImageIndex === index ? 'flex-grow' : 'basis-[15%]'}`}
-          onMouseOver={() => handleMouseOver(index)}
-          style={{ height: '400px' }}
-        >
-          <div className={`relative ${expandedImageIndex === index ? 'w-[60%]' : 'w-full'} transition-all ease-in-out duration-500`}>
-            <Image
-              src={imageCarouselContent[language][key].imagePath}
-              alt={''}
-              fill
-              className='object-cover'
-            />
-          </div>
-          {expandedImageIndex === index && (
-            <div className='transition-all ease-in-out duration-500 flex flex-col items-center justify-center bg-medium-jade overflow-x-hidden w-[40%]'>
-              <h2 className='text-white px-2 text-nowrap whitespace-pre-wrap text-2xl text-center'>{imageCarouselContent[language][key].title}</h2>
-              {imageCarouselContent[language][key].subtext &&
-                <p className='text-white text-sm px-4 my-4'>{imageCarouselContent[language][key].subtext}</p>
-              }
-              {imageCarouselContent[language][key].buttons.map((button, index) => (
-                <a className='bg-charcoal rounded-md mt-2 w-[50%] text-center' key={index} href={button.link}>
-                  <h3 className={`text-white py-2 text-lg text-nowrap ${fraunces.className}`}>{button.text}</h3>
-                </a>
-              ))}
+    isClient && <>
+      {width > 1200 ?
+        <div className='flex flex-row gap-8' style={{ width: '100%', overflow: 'hidden' }}>
+          {Object.keys(imageCarouselContent[language]).map((key, index) => (
+            <div
+              key={index}
+              className={`flex flex-row relative transition-all ease-in-out duration-500 ${expandedImageIndex === index ? 'w-[60%]' : 'w-[20%]'}`}
+              onMouseOver={() => handleMouseOver(index)}
+              style={{ height: '400px' }}
+            >
+              <div className={`relative ${expandedImageIndex === index ? 'w-[60%]' : 'w-full'} transition-all ease-in-out duration-500`}>
+                <Image
+                  src={imageCarouselContent[language][key].imagePath}
+                  alt={''}
+                  fill
+                  className='object-cover'
+                />
+              </div>
+              <div className={`${expandedImageIndex === index ? 'w-[40%]' : 'w-[0px]'} transition-[width] overflow-y-hidden ease-in-out duration-500 flex flex-col items-center justify-center bg-medium-jade overflow-x-hidden`}>
+                <h2 className='text-white px-2 text-nowrap whitespace-pre-wrap text-2xl text-center'>{imageCarouselContent[language][key].title}</h2>
+                {imageCarouselContent[language][key].subtext &&
+                  <p className='text-white text-sm px-4 my-4'>{imageCarouselContent[language][key].subtext}</p>
+                }
+                {imageCarouselContent[language][key].buttons.map((button, index) => (
+                  <a className='bg-charcoal rounded-md mt-2 w-[50%] text-center' key={index} href={button.link}>
+                    <h3 className={`text-white py-2 text-lg text-nowrap ${fraunces.className}`}>{button.text}</h3>
+                  </a>
+                ))}
+              </div>
             </div>
-          )}
+          ))}
         </div>
-      ))}
-    </div>
+        :
+        <div>
+          {Object.keys(imageCarouselContent[language]).map((key, index) => ( 
+            <div key={index} className='my-5 flex'>
+              <div className='relative w-[40%] md:w-[60%] h-[400px]'>
+                <Image
+                  src={imageCarouselContent[language][key].imagePath}
+                  alt={''}
+                  fill
+                  className='object-cover'
+                />
+              </div>
+              <div className='bg-medium-jade w-[60%] md:w-[40%] flex flex-col items-center justify-center'>
+                <h2 className='text-white px-2 text-nowrap whitespace-pre-wrap text-2xl text-center'>{imageCarouselContent[language][key].title}</h2>
+                {imageCarouselContent[language][key].subtext &&
+                  <p className='text-white text-sm px-4 my-4'>{imageCarouselContent[language][key].subtext}</p>
+                }
+                {imageCarouselContent[language][key].buttons.map((button, index) => (
+                  <a className='bg-charcoal rounded-md mt-2 w-[50%] text-center' key={index} href={button.link}>
+                    <h3 className={`text-white py-2 text-lg text-nowrap ${fraunces.className}`}>{button.text}</h3>
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      }
+    </>
   )
 }
 

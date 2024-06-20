@@ -1,0 +1,42 @@
+{
+    "eventsList": [
+        {
+            "imagePath": "/disappearanceTeachIn.JPG",
+            "title": "The 'Disappearance' of Little Saigon Clarendon: Teach-In & Forum",
+            "date": "May 18, 2024"
+        },
+        {
+            "imagePath": "/hamChoiGameNight.jpg",
+            "title": "Ham Choi Game Night",
+            "date": "May 17, 2023"
+        }
+    ],
+    "pastActionAlerts": [
+        {
+            "imagePath": "/actionAlertGraphics/ctaBusinessOwner.png"
+        },
+        {
+            "imagePath": "/actionAlertGraphics/fundAntiDisplacement.png"
+        },
+        {
+            "imagePath": "/actionAlertGraphics/vietOutreachSpecialist.png"
+        },
+        {
+            "imagePath": "/actionAlertGraphics/askYourElders.png",
+            "link": "https://www.facebook.com/avietplace/posts/pfbid02rCGUWJRF5hVVcTgqPyw5Phd8D9eg8mZhcWZ6KspnCqA4L9h1uwt8aZVbP7VgG41Ql"
+        },
+        {
+            "imagePath": "/actionAlertGraphics/eastEndSurvey.png"
+        }
+    ],
+    "volunteerDonate": {
+        "volunteer": {
+            "imagePath": "/volunteerPic.JPG",
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
+        },
+        "donate": {
+            "imagePath": "donatePic.jpg",
+            "link": "https://givebutter.com/c/O8i9zl"
+        }
+    }
+}

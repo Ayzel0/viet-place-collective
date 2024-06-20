@@ -5,6 +5,10 @@
             "type": "header1"
         },
         {
+            "text": "About VPC Picture",
+            "type": "image"
+        },
+        {
             "text": "Our Work",
             "type": "header2"
         },
