@@ -27,7 +27,7 @@ export default function RootLayout({
       <body>
         <LanguageProvider initialLanguage={initialLanguage}>
           <div className='flex flex-col min-h-screen'>
-            <div className='bg-gradient-to-b from-dark-jade to-transparent relative z-10'>
+            <div className='bg-gradient-to-b from-dark-jade to-transparent relative z-20'>
               <Navbar />
             </div>
             <BackgroundImage />

@@ -35,6 +35,11 @@
             "type": "header1"
         },
         {
+            "text": "Photo by Hector Alejandro Arzate",
+            "type": "image",
+            "imagePath": "/frontPagePictures/signPictureHector.jpg"
+        },
+        {
             "text": "Eden Center will not be redeveloped for now",
             "type": "link",
             "href": "/about#FAQ"
@@ -42,6 +47,11 @@
         {
             "text": ", but the surrounding area will develop with new retail stores, housing, and offices in the next 10 years. There will also be major road construction in Seven Corners to improve safety in the next 5 years. As the neighborhood changes, Viet Place Collective has advocated to ensure that the City of Falls Church will support our Vietnamese-owned small businesses. Let’s make sure the City of Falls Church keeps their promises to our community!",
             "type": "normalText"
+        },
+        {
+            "text": "Photo by Kyle Witzigman",
+            "type": "image",
+            "imagePath": "/frontPagePictures/fallsChurchCouncil.jpg"
         },
         {
             "text": "We're working towards:",

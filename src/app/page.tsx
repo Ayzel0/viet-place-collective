@@ -16,9 +16,10 @@ interface IFrontPageContent {
 }
 
 interface ITextContent {
-  text: string,
-  type: string,
+  text: string
+  type: string
   href?: string
+  imagePath?: string
 }
 
 
@@ -33,6 +34,20 @@ export default async function Home() {
 
     // includes unique values cuz I didn't wanna bother putting those in json
     switch (textContent.type) {
+      case 'image': 
+        element = 
+        <div className='flex justify-center my-5'>
+          <div className='relative w-[250px] md:w-[350px] lg:w-[500px] h-[200px] md:w-[300px] lg:h-[400px]'>
+            <Image 
+              src={textContent.imagePath as string}
+              alt={''}
+              fill
+              className='object-cover'
+            />
+            <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>{textContent.text}</p>
+          </div>
+        </div>
+        break;
       case 'normalText': 
         element = <span>{textContent.text}</span>
         break;
@@ -100,17 +115,7 @@ export default async function Home() {
           ))}
         </div>
         <div className='w-full h-1 bg-medium-gold my-5' />
-        <div className='flex justify-center'>
-          <div className='relative w-[250px] md:w-[350px] lg:w-[500px] h-[200px] md:w-[300px] lg:h-[400px]'>
-            <Image 
-              src={'/frontPagePictures/fallsChurchCouncil.jpg'}
-              alt={'Falls Church City Council'}
-              fill
-              className='object-cover'
-            />
-            <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>Photo by Kyle Witzigman</p>
-          </div>
-        </div>
+        
         <div className="mt-8">
           {inFallsChurch.map((obj, index) => (
             <span key={index} className='text-white whitespace-pre-wrap'>

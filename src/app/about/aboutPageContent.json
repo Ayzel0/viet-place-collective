@@ -14,7 +14,15 @@
             "imagePath": "/aboutPagePictures/vpcTeam.jpg"
         },
         {
-            "text": "Viet Place Collective is an all-volunteer grassroots organization that aims to build power across generations to uplift and uphold the Vietnamese community's legacy in the DMV. VPC formed in Dec. 2022 in response to a redevelopment plan by the City of Falls Church over concerns about displacement of the majority-Vietnamese small businesses of Eden Center, the largest Vietnamese cultural and commercial hub on the East Coast and the cornerstone of our community in the region. We’ve championed the importance of preserving a cultural hub, recognizing the Vietnamese community's history of displacement as part of a greater trend of gentrification nationally. Within just a year, VPC's advocacy has improved conditions at Eden Center, brought Vietnamese voices and an anti-displacement toolkit to the City’s plan, and raised the City's standard for equitable outreach to impacted populations.\n\nOur vision is a thriving “third space” for the Vietnamese and larger Asian American community in the DC Maryland Virginia (DMV) area – one that preserves the legacy of our elders and empowers generations ahead. Blending our diverse expertise in research, urban planning, advocacy, creativity, and community outreach, we bridge the policy and programming gap between the communities we love and the levers of power in local/state government, nonprofits, and academia.\n\nWe do this by advocating for our communities’ needs, raising the profile of Vietnamese small businesses at Eden Center through tours, hosting and facilitating educational workshops, and speaking at conferences and other events. See examples of our work below.",
+            "text": "Viet Place Collective is an all-volunteer grassroots organization that aims to build power across generations to uplift and uphold the Vietnamese community's legacy in the DMV. VPC formed in Dec. 2022 in response to a redevelopment plan by the City of Falls Church over concerns about displacement of the majority-Vietnamese small businesses of Eden Center, the largest Vietnamese cultural and commercial hub on the East Coast and the cornerstone of our community in the region. We’ve championed the importance of preserving a cultural hub, recognizing the Vietnamese community's history of displacement as part of a greater trend of gentrification nationally. Within just a year, VPC's advocacy has improved conditions at Eden Center, brought Vietnamese voices and an anti-displacement toolkit to the City’s plan, and raised the City's standard for equitable outreach to impacted populations.",
+            "type": "normalText"
+        },
+        {
+            "text": "none",
+            "type": "threeImageBox"
+        },
+        {
+            "text": "Our vision is a thriving “third space” for the Vietnamese and larger Asian American community in the DC Maryland Virginia (DMV) area – one that preserves the legacy of our elders and empowers generations ahead. Blending our diverse expertise in research, urban planning, advocacy, creativity, and community outreach, we bridge the policy and programming gap between the communities we love and the levers of power in local/state government, nonprofits, and academia.\n\nWe do this by advocating for our communities’ needs, raising the profile of Vietnamese small businesses at Eden Center through tours, hosting and facilitating educational workshops, and speaking at conferences and other events. See examples of our work below.",
             "type": "normalText"
         },
         {
@@ -23,12 +31,96 @@
             "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
         },
         {
+            "text": "Born from the City of Falls Church’s lack of equitable community outreach, VPC organized to ensure that the small businesses at Eden Center and the greater community understood and could share their feedback on the City’s official guidance for future redevelopment in the area (East End Small Area Plan). In 2022 and 2023, VPC advocated for multilingual feedback surveys, public Listening Sessions, and pop-ups at Eden Center, resulting in the City’s most equitable planning process to date. To bolster our organizing, VPC also has produced reports containing actionable recommendations for the City to better support our community.",
+            "type": "normalText"
+        },
+        {
+            "text": "",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/communityDemands.png"
+        },
+        {
+            "text": "Based on our conversations with Eden Center business owners and referencing the ",
+            "type": "normalText"
+        },
+        {
+            "text": "Small Business Anti-Displacement Network Toolkit",
+            "type": "link",
+            "href": "https://antidisplacement.org/toolkit/"
+        },
+        {
+            "text": ", ",
+            "type": "normalText"
+        },
+        {
+            "text": "VPC outlined ",
+            "type": "boldText"
+        },
+        {
+            "text": "recommendations for changes to the SAP",
+            "type": "link",
+            "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
+        },
+        {
+            "text": " that would protect and bolster the Vietnamese small businesses and greater community in the area",
+            "type": "boldText"
+        },
+        {
+            "text": ". In June 2023, Planning Commissioners and City Council Members voted to approve the SAP, with the following revisions from our recommendations:",
+            "type": "normalText"
+        },
+        {
+            "text": "",
+            "type": "ulObject"
+        },
+        {
+            "text": "Read the full report",
+            "type": "link",
+            "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
+        },
+        {
+            "text": "",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/strategicPlanDraft.png"
+        },
+        {
+            "text": "Following our win with the revised East End SAP, VPC consulted with subject matter experts and Eden Center business owners to ",
+            "type": "normalText"
+        },
+        {
+            "text": "identify specific strategies to implement, strengthen, and fund the anti-displacement toolkit",
+            "type": "boldText"
+        },
+        {
+            "text": " codified in the SAP. We met one-on-one with City Council members and participated throughout the City’s budget process to advocate for our ",
+            "type": "normalText"
+        },
+        {
+            "text": "funding recommendations to support Vietnamese small businesses",
+            "type": "link",
+            "href": "https://drive.google.com/file/d/14CljrvbA-uHV7a2S-zMPcU3ofwH8tksx/view"
+        },
+        {
+            "text": ". VPC is currently collaborating with the City Manager’s Office to hire a Vietnamese Outreach Specialist at the City, which would help business owners navigate anti-displacement and small business programs, and build relationships with them and the greater community.\n\n",
+            "type": "normalText"
+        },
+        {
+            "text": "Read one-pager",
+            "type": "link",
+            "href": "https://drive.google.com/file/d/14CljrvbA-uHV7a2S-zMPcU3ofwH8tksx/view"
+        },
+        {
             "text": "Partnerships",
             "type": "header1"
         },
         {
             "text": "JHU Critical Diaspora Studies",
             "type": "header2"
+        },
+        {
+            "text": "Photo by Matthew Gonzales",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/jhu.JPG"
         },
         {
             "text": "VPC has partnered with ",
@@ -75,6 +167,13 @@
         {
             "text": "SBAN",
             "type": "header2"
+        },
+        {
+            "text": "Photo by ",
+            "href": "https://www.emanmohammed.com/",
+            "hrefText": "Eman Mohammed",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/SBAN.jpg"
         },
         {
             "text": "VPC is a proud member of the ",

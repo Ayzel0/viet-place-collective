@@ -7,6 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    listStyleType: {
+      disc: 'disc',
+      square: 'square'
+    },
     extend: {
       colors: {
         'dark-jade': '#0c2b2d',
