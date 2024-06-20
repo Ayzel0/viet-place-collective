@@ -39,12 +39,16 @@ const Page = () => {
       // includes unique values cuz I didn't wanna bother putting those in json
       switch (textContent.type) {
         case 'image':
-          element = <Image 
-            src={textContent.imagePath as string}
-            alt={""}
-            width={1000}
-            height={1000}
-          />
+          element = 
+          <div>
+            <Image 
+              src={textContent.imagePath as string}
+              alt={""}
+              width={1000}
+              height={1000}
+            />
+          </div>
+          break;
         case 'normalText': 
           element = <span>{textContent.text}</span>
           break;
