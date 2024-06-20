@@ -74,53 +74,63 @@ export default async function Home() {
   }
 
   return (
-    <main className='mx-[5%] lg:mx-[10%] xl:mx-[16%]'>
-      <div className=''>
-
-      </div>
-      <TitleBar />
-      <div className='w-full h-1 bg-medium-gold my-5' />
-      <ImageCarousel />
-      <div className='w-full h-1 bg-medium-gold mt-5' />
-      <h2 className='text-pale-yellow mt-8 text-3xl font-semibold'>By the Numbers</h2>
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 my-4'>
-        {byTheNumbers.map((obj, i) => (
-            i < 3 &&
+    <main>
+      <div className='mx-[5%] lg:mx-[10%] xl:mx-[16%] relative z-10'>
+        <TitleBar />
+        <div className='w-full h-1 bg-medium-gold my-5' />
+        <ImageCarousel />
+        <div className='w-full h-1 bg-medium-gold mt-5' />
+        <h2 className='text-pale-yellow mt-8 text-3xl font-semibold'>By the Numbers</h2>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 my-4'>
+          {byTheNumbers.map((obj, i) => (
+              i < 3 &&
+              <div key={i} className='bg-medium-jade py-4 px-6 flex gap-8 items-center'>
+                <h3 className='text-pale-yellow text-[3rem] font-bold'>{obj.amount}</h3>
+                <p className='text-pink text-xl'>{obj.type}</p>
+              </div>
+          ))}
+        </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-4'>
+          {byTheNumbers.map((obj, i) => (
+            i >= 3 &&
             <div key={i} className='bg-medium-jade py-4 px-6 flex gap-8 items-center'>
               <h3 className='text-pale-yellow text-[3rem] font-bold'>{obj.amount}</h3>
               <p className='text-pink text-xl'>{obj.type}</p>
             </div>
-        ))}
-      </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-4'>
-        {byTheNumbers.map((obj, i) => (
-          i >= 3 &&
-          <div key={i} className='bg-medium-jade py-4 px-6 flex gap-8 items-center'>
-            <h3 className='text-pale-yellow text-[3rem] font-bold'>{obj.amount}</h3>
-            <p className='text-pink text-xl'>{obj.type}</p>
+          ))}
+        </div>
+        <div className='w-full h-1 bg-medium-gold my-5' />
+        <div className='flex justify-center'>
+          <div className='relative w-[250px] md:w-[350px] lg:w-[500px] h-[200px] md:w-[300px] lg:h-[400px]'>
+            <Image 
+              src={'/frontPagePictures/fallsChurchCouncil.jpg'}
+              alt={'Falls Church City Council'}
+              fill
+              className='object-cover'
+            />
+            <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>Photo by Kyle Witzigman</p>
           </div>
-        ))}
-      </div>
-      <div className='w-full h-1 bg-medium-gold my-5' />
-      <div className="mt-8">
-        {inFallsChurch.map((obj, index) => (
-          <span key={index} className='text-white whitespace-pre-wrap'>
-            {renderTextContent(obj, index)}
-          </span>
-        ))}
-      </div>
-      <div className='mb-10'>
-        {inFallsChurchUL.map((arr, i) => ( 
-          <ul key={i} className='list-disc text-white ml-10'>
-            <li className='my-3'>
-              {arr.map((obj, j) => (
-                <span key={j} className='text-white'>
-                  {renderTextContent(obj, j)}
-                </span>
-              ))}
-            </li>
-          </ul>
-        ))}
+        </div>
+        <div className="mt-8">
+          {inFallsChurch.map((obj, index) => (
+            <span key={index} className='text-white whitespace-pre-wrap'>
+              {renderTextContent(obj, index)}
+            </span>
+          ))}
+        </div>
+        <div className='mb-10'>
+          {inFallsChurchUL.map((arr, i) => ( 
+            <ul key={i} className='list-disc text-white ml-10'>
+              <li className='my-3'>
+                {arr.map((obj, j) => (
+                  <span key={j} className='text-white'>
+                    {renderTextContent(obj, j)}
+                  </span>
+                ))}
+              </li>
+            </ul>
+          ))}
+        </div>
       </div>
     </main>
   );
