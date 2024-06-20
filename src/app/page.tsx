@@ -1,6 +1,5 @@
 import { jsxs } from "react/jsx-runtime";
 import ImageCarousel from "./ImageCarousel";
-import SupportBox from "./SupportBox";
 import TitleBar from "./TitleBar";
 import { fraunces } from "./fonts";
 import FrontPageContentJSON from './frontPageContent.json';

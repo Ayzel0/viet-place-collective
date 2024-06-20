@@ -26,6 +26,11 @@ interface ITextContent {
   href?: string
   hrefText?: string
   imagePath?: string
+  threeImageContent?: {
+    imagePath: string
+    caption: string
+    captionHref: string
+  }[]
 }
 
 const Page = () => {
@@ -80,6 +85,8 @@ const Page = () => {
             <li>Suggestions to improve parking at Eden Center, while expanding public transportation options</li>
           </ul>
           break;
+        case 'threeImage': 
+          
         case 'threeImageBox':
           element = 
           <div className='flex my-5 w-[85vw] overflow-x-hidden lg:w-[60vw]'>
@@ -123,7 +130,7 @@ const Page = () => {
         case 'header1':
           element = <h1 id={textContent.text.split(' ').join('')} className='text-pale-yellow text-xl lg:text-3xl xl:text-4xl font-semibold my-8'>
             {textContent.href ?
-             <a href={textContent.href}>textContent.text</a>
+             <a href={textContent.href}>{textContent.text}</a>
              :
              textContent.text
             }
