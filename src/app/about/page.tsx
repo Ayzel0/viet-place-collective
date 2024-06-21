@@ -92,6 +92,7 @@ const Page = () => {
             {textContent.threeImageContent?.map((obj, index) => (
               <div key={index} className='relative'>
                 <Image 
+                  unoptimized
                   src={obj.imagePath}
                   alt={''}
                   width={500}

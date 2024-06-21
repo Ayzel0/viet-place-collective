@@ -58,6 +58,7 @@ const ImageCarousel = () => {
             >
               <div className={`relative ${expandedImageIndex === index ? 'w-[60%]' : 'w-full'} transition-all ease-in-out duration-500`}>
                 <Image
+                  unoptimized
                   src={imageCarouselContent[language][key].imagePath}
                   alt={''}
                   fill
