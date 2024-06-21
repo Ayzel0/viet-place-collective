@@ -93,7 +93,7 @@ const ExpandingFAQBox: React.FC<ExpectedProps> = ({ question, answer }) => {
           </div>
           <div className={`relative bg-dark-jade transform transition-transform duration-500 w-full px-5 py-4 ${expanded ? 'translate-y-0' : '-translate-y-full'}`}>
             {answer.map((obj, idx) => (
-              <span key={idx} className='text-white whitespace-pre-wrap'>
+              <span key={idx} className='text-white whitespace-pre-wrap text-xs md:text-sm'>
                 {renderTextContent(obj, idx)}
               </span>
             ))}

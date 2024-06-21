@@ -29,7 +29,8 @@ interface ITextContent {
   threeImageContent?: {
     imagePath: string
     caption: string
-    captionHref: string
+    hrefText?: string
+    href?: string
   }[]
 }
 
@@ -58,7 +59,7 @@ const Page = () => {
                 <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>
                   {textContent.text}
                   {textContent.href &&
-                    <a href={textContent.href}>{textContent.hrefText}</a>
+                    <a href={textContent.href} className='underline'>{textContent.hrefText}</a>
                   }
                 </p>
               }
@@ -86,7 +87,26 @@ const Page = () => {
           </ul>
           break;
         case 'threeImage': 
-          
+          element = 
+          <div className='grid md:grid-cols-3 gap-2'>
+            {textContent.threeImageContent?.map((obj, index) => (
+              <div key={index} className='relative'>
+                <Image 
+                  src={obj.imagePath}
+                  alt={''}
+                  width={500}
+                  height={500}
+                />
+                <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>
+                  {obj.caption}
+                  {obj.hrefText &&
+                    <a href={obj.href} className='underline'>{obj.hrefText}</a>
+                  }
+                </p>
+              </div>
+            ))}
+          </div>
+          break;
         case 'threeImageBox':
           element = 
           <div className='flex my-5 w-[85vw] overflow-x-hidden lg:w-[60vw]'>
@@ -114,7 +134,7 @@ const Page = () => {
                 fill
                 className='object-cover'
               />
-              <p className='absolute bottom-0 left-0 bg-charcoal px-3 py-1 text-mint text-sm rounded-tr-3xl'>Photo by <a href="https://www.valerieplesch.com/">Valerie Plesch</a></p>
+              <p className='absolute bottom-0 left-0 bg-charcoal px-3 py-1 text-mint text-sm rounded-tr-3xl'>Photo by <a className='underline' href="https://www.valerieplesch.com/">Valerie Plesch</a></p>
             </div>
           </div>
           break;
@@ -184,7 +204,7 @@ const Page = () => {
 
       <div className='lg:col-span-3'>
         {processTextContent(language, 'text-white')}
-        <div className='my-8 mb-[175px]'>
+        <div className='my-8 mb-[225px]'>
           {faqContent[language].map((obj, idx) => (
             <div key={idx}>
               <ExpandingFAQBox 
