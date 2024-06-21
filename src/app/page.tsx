@@ -18,6 +18,7 @@ interface ITextContent {
   text: string
   type: string
   href?: string
+  hrefText?: string
   imagePath?: string
 }
 
@@ -43,7 +44,11 @@ export default async function Home() {
               fill
               className='object-cover'
             />
-            <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>{textContent.text}</p>
+            <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>{textContent.text}
+              {textContent.hrefText &&
+                <a href={textContent.href} className='underline'>{textContent.hrefText}</a>
+              }
+            </p>
           </div>
         </div>
         break;

@@ -35,7 +35,9 @@
             "type": "header1"
         },
         {
-            "text": "Photo by Hector Alejandro Arzate",
+            "text": "Photo by ",
+            "hrefText": "Hector Alejandro Arzate",
+            "href": "https://dcist.com/story/23/06/27/va-falls-proposed-redevelopment-plan-eden-center-approved/",
             "type": "image",
             "imagePath": "/frontPagePictures/signPictureHector.jpg"
         },

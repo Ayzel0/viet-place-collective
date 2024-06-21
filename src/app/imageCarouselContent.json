@@ -91,11 +91,11 @@
             "buttons": [
                 {
                     "text": "Get Tickets",
-                    "link": "https://givebutter.com/c/O8i9zl"
+                    "link": "https://givebutter.com/O8i9zl"
                 },
                 {
                     "text": "All Events",
-                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
+                    "link": "/get_involved"
                 }
             ]
         }
