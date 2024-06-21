@@ -92,7 +92,7 @@ const Page = () => {
             {textContent.threeImageContent?.map((obj, index) => (
               <div key={index} className='relative'>
                 <Image 
-                  unoptimized
+                  className='aspect-video'
                   src={obj.imagePath}
                   alt={''}
                   width={500}
