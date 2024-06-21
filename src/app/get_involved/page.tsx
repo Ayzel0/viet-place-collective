@@ -73,6 +73,26 @@ const page = () => {
           </div>
         ))}
       </div>
+      <div className='grid grid-cols-2 mb-10 gap-x-10 relative'>
+        <a className='relative' href='https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform'>
+          <Image 
+            src={getInvolvedContent.volunteerDonate.volunteer.imagePath}
+            alt={'Volunteer'}
+            height={1000}
+            width={1000}
+          />
+          <h3 className='absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] text-[4rem] font-bold text-pale-yellow text-shadow-md'>Volunteer</h3>
+        </a>
+        <a className="relative" href='https://givebutter.com/O8i9zl'>
+          <Image 
+            src={getInvolvedContent.volunteerDonate.donate.imagePath}
+            alt={'Volunteer'}
+            height={1000}
+            width={1000}
+          />
+          <h3 className='absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] text-[4rem] font-bold text-pale-yellow text-shadow-md'>Donate</h3>
+        </a>
+      </div>
     </div>
   )
 }
