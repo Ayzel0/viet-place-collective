@@ -303,181 +303,303 @@
     ],
     "vietnamese": [
         {
-            "text": "History",
+            "text": "About VPC",
             "type": "header1"
         },
         {
-            "text": "Little Saigon Clarendon",
+            "text": "Our Work",
             "type": "header2"
         },
         {
-            "text": "In the 1960s, competition from newer malls and shopping center areas like Ballston and Tysons Corner caused urban decline in Clarendon, which used to be Arlington’s downtown in the early 1900s. On top of that, construction for the Clarendon metro station tore up the neighborhood, which caused landlords to offer short-term commercial leases that were as cheap as $1.50 to $5 / sq ft.",
+            "text": "Photo by VPC",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/vpcTeam.jpg"
+        },
+        {
+            "text": "Viet Place Collective is an all-volunteer grassroots organization that aims to build power across generations to uplift and uphold the Vietnamese community's legacy in the DMV. VPC formed in Dec. 2022 in response to a redevelopment plan by the City of Falls Church over concerns about displacement of the majority-Vietnamese small businesses of Eden Center, the largest Vietnamese cultural and commercial hub on the East Coast and the cornerstone of our community in the region. We’ve championed the importance of preserving a cultural hub, recognizing the Vietnamese community's history of displacement as part of a greater trend of gentrification nationally. Within just a year, VPC's advocacy has improved conditions at Eden Center, brought Vietnamese voices and an anti-displacement toolkit to the City’s plan, and raised the City's standard for equitable outreach to impacted populations.",
             "type": "normalText"
         },
         {
-            "text": "\n\nVietnamese immigrants arriving after the fall of Saigon in 1975 found this space near and along Wilson Blvd affordable. For newly-arrived immigrants, opening a business is hard enough. They don’t have established credit, so banks offer high-interest loans, or don’t let them take loans at all. Many Viet immigrants had to pool money from their friends and family, even to open their shops in Clarendon. The need for community was strong, though, and by early 1975, Clarendon already had 2 Viet grocery stores. The small business community quickly blossomed, with shops selling groceries, clothing, jewelry, furniture, and more, as well as restaurants, cafes, and billiard halls.",
+            "text": "none",
+            "type": "threeImageBox"
+        },
+        {
+            "text": "Our vision is a thriving “third space” for the Vietnamese and larger Asian American community in the DC Maryland Virginia (DMV) area – one that preserves the legacy of our elders and empowers generations ahead. Blending our diverse expertise in research, urban planning, advocacy, creativity, and community outreach, we bridge the policy and programming gap between the communities we love and the levers of power in local/state government, nonprofits, and academia.\n\nWe do this by advocating for our communities’ needs, raising the profile of Vietnamese small businesses at Eden Center through tours, hosting and facilitating educational workshops, and speaking at conferences and other events. See examples of our work below.",
             "type": "normalText"
         },
         {
-            "text": "\n\nNews spread quickly about this collection of shops unofficially known as “Little Saigon”; the area would see 15-20K visitors - mostly Vietnamese - on weekends. Refugee assistance groups and churches organized trips that brought immigrants from all over NoVA to Clarendon to shop; Vietnamese and other southeast Asian immigrants living as far away as North Carolina and Tennessee made the trek to get familiar goods that they’ve missed from their homelands, and to connect with others. For many Viet folks, it reminded them of home.",
+            "text": "Advocacy and Reports",
+            "type": "header2",
+            "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
+        },
+        {
+            "text": "Born from the City of Falls Church’s lack of equitable community outreach, VPC organized to ensure that the small businesses at Eden Center and the greater community understood and could share their feedback on the City’s official guidance for future redevelopment in the area (East End Small Area Plan). In 2022 and 2023, VPC advocated for multilingual feedback surveys, public Listening Sessions, and pop-ups at Eden Center, resulting in the City’s most equitable planning process to date. To bolster our organizing, VPC also has produced reports containing actionable recommendations for the City to better support our community.",
             "type": "normalText"
         },
         {
-            "text": "\n\nDespite being a humble strip of stores, Little Saigon Clarendon was truly a community hub. Vietnamese people took an undesirable place and breathed vitality, economic activity, and culture into it.",
+            "text": "",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/communityDemands.png"
+        },
+        {
+            "text": "Based on our conversations with Eden Center business owners and referencing the ",
             "type": "normalText"
         },
         {
-            "text": "\n\nThen, in 1979, the Clarendon metro station completed construction. As landlords anticipated new developments and desired higher-income tenants for mid- and high-rise office buildings, they jacked up the rent on the Vietnamese businesses from $5 to $25 / sq ft. (that’s 500%!) This marked the beginning of the displacement of the Vietnamese business community, who could no longer afford to be in Clarendon and started searching for someplace else to re-establish their commercial and cultural hub.",
-            "type": "normalText"
-        },
-        {
-            "text": "\n\nBut displacement doesn’t happen overnight, and it’s not just the landlord or developer’s fault. The final nail in Little Saigon Clarendon’s coffin was when Arlington County approved the Clarendon redevelopment plan in 1989. Many county officials expressed a want to retain the Vietnamese businesses in Clarendon. But words are just lip service without action: Arlington didn’t set up anti-displacement programs to help the Vietnamese businesses stay. They merely elected to preserve the storefronts, which ultimately means nothing to a Vietnamese business owner if they don’t own their building.",
-            "type": "normalText"
-        },
-        {
-            "text": "\n\nThe only remaining Viet business from Little Saigon Clarendon today is Nam Viet restaurant (they bought their building).",
-            "type": "normalText"
-        },
-        {
-            "text": "\n\nThe history of Little Saigon Clarendon has been preserved thanks to the efforts of ",
-            "type": "normalText"
-        },
-        {
-            "text": "Kim O'Connell",
+            "text": "Small Business Anti-Displacement Network Toolkit",
             "type": "link",
-            "href": "https://www.kimaoconnell.com/vietnamese-heritage.html"
+            "href": "https://antidisplacement.org/toolkit/"
         },
         {
-            "text": ", a local historian, and a group of Virginia Tech students, who collected oral histories and developed the ",
+            "text": ", ",
             "type": "normalText"
-        }, 
+        },
         {
-            "text": "Echoes of Little Saigon",
+            "text": "VPC outlined ",
+            "type": "boldText"
+        },
+        {
+            "text": "recommendations for changes to the SAP",
             "type": "link",
-            "href": "https://littlesaigonclarendon.com/"
+            "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
         },
         {
-            "text": " website.",
+            "text": " that would protect and bolster the Vietnamese small businesses and greater community in the area",
+            "type": "boldText"
+        },
+        {
+            "text": ". In June 2023, Planning Commissioners and City Council Members voted to approve the SAP, with the following revisions from our recommendations:",
             "type": "normalText"
         },
         {
-            "text": "Eden Center",
-            "type": "header2"
+            "text": "",
+            "type": "ulObject"
         },
         {
-            "text": "In the 1980s, while Vietnamese businesses were actively being priced out of Clarendon, a group of Vietnamese businessmen that formed Vina Enterprises acquired from Capital Commercial Properties a 10-year lease on a dilapidated space once occupied by a supermarket in a sleepy shopping center once called Plaza Seven, in the City of Falls Church- just a few miles down Wilson Blvd.\n\nVina divided up the 22K sq ft space into 15 stores and sublet them all, calling it Eden Center, named after a popular shopping arcade in Saigon called Khu Eden. Vietnamese people once again gave an undesired place life and color.\n\nIn 1994, CCP sued Vina Enterprises and cut them out of the picture for CCP to have direct ownership over Eden. CCP also bought the name “Eden Center” from Vina.\n\nIn 1997, CCP expanded Eden Center to include Saigon SW (1st stop in the tour), the clock tower, the arch + stone lions, and more parking). This didn’t come without growing pains, though- a few years prior, when CCP submitted the plans to FC, Viet business owners at Eden had submitted a letter to Planning Board, expressing concerns about security, parking, duplication of businesses (thus intra-center competition), irresponsibility of landlord in upkeep + poor maintenance of public spaces (including restrooms) over the past 12 years. They called for improvement of current structures before making new ones.\n\nIn 2012, 16 tenants sued CCP for many of the same issues. CCP, being a company full of lawyers, got the case dismissed because the Eden businesses didn’t sue them in Florida, which is where CCP is based.\n\nMore than 25 years later, many of those issues from 1997 are still not resolved, but our small business community persists. Eden Center is still going strong, and it’s the largest Vietnamese shopping center on the East Coast, and the cornerstone of the Viet community in NoVA and the greater DC metro area. Like Little Saigon Clarendon once was, despite not being zoned as residential, our small businesses at Eden have created a sense of “home” for many Viet folks here.",
+            "text": "Read the full report",
+            "type": "link",
+            "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
+        },
+        {
+            "text": "",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/strategicPlanDraft.png"
+        },
+        {
+            "text": "Following our win with the revised East End SAP, VPC consulted with subject matter experts and Eden Center business owners to ",
             "type": "normalText"
         },
         {
-            "text": "Our Demands",
+            "text": "identify specific strategies to implement, strengthen, and fund the anti-displacement toolkit",
+            "type": "boldText"
+        },
+        {
+            "text": " codified in the SAP. We met one-on-one with City Council members and participated throughout the City’s budget process to advocate for our ",
+            "type": "normalText"
+        },
+        {
+            "text": "funding recommendations to support Vietnamese small businesses",
+            "type": "link",
+            "href": "https://drive.google.com/file/d/14CljrvbA-uHV7a2S-zMPcU3ofwH8tksx/view"
+        },
+        {
+            "text": ". VPC is currently collaborating with the City Manager’s Office to hire a Vietnamese Outreach Specialist at the City, which would help business owners navigate anti-displacement and small business programs, and build relationships with them and the greater community.\n\n",
+            "type": "normalText"
+        },
+        {
+            "text": "Read one-pager",
+            "type": "link",
+            "href": "https://drive.google.com/file/d/14CljrvbA-uHV7a2S-zMPcU3ofwH8tksx/view"
+        },
+        {
+            "text": "Partnerships",
             "type": "header1"
         },
         {
-            "text": "Background",
+            "text": "JHU Critical Diaspora Studies",
             "type": "header2"
         },
         {
-            "text": "Over the past several months, our grassroots organizers have built strong relationships with the business owners and employees of the Eden Center, working tirelessly to provide clear and direct information about the SAP, and actively dispelling rumors that Eden Center might be torn down. We have come to understand the day-to-day challenges that threaten long-term business operations and patronage. Most importantly, we have helped the Vietnamese community better understand the potential consequences and hidden costs of redevelopment — in particular, their displacement from a place they’ve called home for nearly forty years.",
+            "text": "Photo by Matthew Gonzales",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/jhu.JPG"
+        },
+        {
+            "text": "VPC has partnered with ",
             "type": "normalText"
         },
         {
-            "text": "\n\nThough the City of Falls Church outwardly champions equitable development and diversity, the drafted plan does not adequately support those goals and may actively contribute to commercial displacement. These Vietnamese and immigrant-owned businesses are at highest risk for displacement as a result of redevelopment. It is imperative that their voice, needs, and desires are heard and reflected in the final SAP.",
+            "text": "Johns Hopkins University Critical Diaspora Studies",
+            "type": "link",
+            "href": "https://sites.krieger.jhu.edu/ric/about/"
+        },
+        {
+            "text": " to develop knowledge and document historical patterns of land dispossession and displacement of communities of color in Northern Virginia. Our first project, ",
             "type": "normalText"
         },
         {
-            "text": "Demands",
+            "text": "The “Disappearance” of Little Saigon Clarendon",
+            "type": "italic"
+        },
+        {
+            "text": ", empirically examines the causes of Little Saigon Clarendon’s slow displacement and critically analyzes how each stakeholder’s action- or inaction- led to the demise of the area’s first Vietnamese community hub.",
+            "type": "normalText"
+        },
+        {
+            "text": "UEC Fellows",
             "type": "header2"
         },
         {
-            "text": "1. Make anti-displacement of Vietnamese-owned businesses a primary goal of the SAP's overall Vision and Goals, rather than a subsection of the Economic Development Chapter.",
-            "type": "header3"
-        },
-        {
-            "text": "Anti-displacement must be front and center in the SAP - not relegated to an afterthought in the Economic Development chapter. Though one the stated goals is to “preserve the Eden Center,” the plan focuses on the building and fails to provide specific guidance about how to prevent commercial displacement due to potential redevelop- ment. This is not an unfounded fear:",
+            "text": "The ",
             "type": "normalText"
         },
         {
-            "text": "\n\nVietnamese American businesses making up the “Little Saigon” in Clarendon, Virginia were displaced as a direct result of a lack of anti- displacement protections. After the Clarendon metro station opened in 1979 and Arlington County approved mid-rise developments, rents sky- rocketed from $1/sf to as high as $25/sf.",
+            "text": "University of Maryland Urban Equity Collaborative",
+            "type": "link",
+            "href": "https://urbanequitycollab.org/"
+        },
+        {
+            "text": "has invited VPC to the Community Fellows Program to research and re-envision strategies concerning our activism amidst gentrification and displacement. ",
+            "type": "“Mobilizing Culture as Political Action”"
+        },
+        {
+            "text": " explores the nuances of organizing an intergenerational Vietnamese community, and the power of highlighting shared cultural values to encourage action in the fight to maintain our collective spaces.",
+            "type": "normalText"
+        },
+        {
+            "text": "SBAN",
+            "type": "header2"
+        },
+        {
+            "text": "Photo by ",
+            "href": "https://www.emanmohammed.com/",
+            "hrefText": "Eman Mohammed",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/SBAN.jpg"
+        },
+        {
+            "text": "VPC is a proud member of the ",
+            "type": "normalText"
+        },
+        {
+            "text": "Small Business Anti-Displacement Network",
+            "type": "link"
+        },
+        {
+            "text": ", a network of nonprofit advocates, policymakers, technical assistance providers, scholars, and small business owners working to prevent displacement of BIPOC- and immigrant-owned small businesses in gentrifying neighborhoods.",
+            "type": "normalText"
+        },
+        {
+            "text": "Workshops & Teach-Ins",
+            "type": "header1"
+        },
+        {
+            "text": "",
+            "type": "threeImage",
+            "threeImageContent": [
+                {
+                    "imagePath": "/aboutPagePictures/vpcPresenting.jpg",
+                    "caption": "Photo by ",
+                    "hrefText": "Eman Mohammed",
+                    "href": "https://www.emanmohammed.com/"
+                },
+                {
+                    "imagePath": "/aboutPagePictures/vpcTeam2.JPG",
+                    "caption": "Photo by Quynh Nguyen"
+                },
+                {
+                    "imagePath": "/aboutPagePictures/teachinDisappearance.jpg",
+                    "caption": "Photo by Matthew Gonzales"
+                }
+            ]
+        },
+        {
+            "text": "Eden Center Tours",
+            "type": "header1"
+        },
+        {
+            "text": "",
+            "type": "threeImage",
+            "threeImageContent": [
+                {
+                    "imagePath": "/aboutPagePictures/vpcEden3.jpg",
+                    "caption": "Photo by ",
+                    "hrefText": "Eman Mohammed",
+                    "href": "https://www.emanmohammed.com/"
+                },
+                {
+                    "imagePath": "/aboutPagePictures/vpcFlowers.jpg",
+                    "caption": "Photo by ",
+                    "hrefText": "Eman Mohammed",
+                    "href": "https://www.emanmohammed.com/"
+                },
+                {
+                    "imagePath": "/aboutPagePictures/vpcEden4.JPG",
+                    "caption": "Photo by Matthew Gonzales"
+                }
+            ]
+        },
+        {
+            "text": "Conferences & Speaking Engagements",
+            "type": "header1"
+        },
+        {
+            "text": "",
+            "type": "threeImage",
+            "threeImageContent": [
+                {
+                    "imagePath": "/aboutPagePictures/vpcADN.jpg",
+                    "caption": "Photo by Quynh Nguyen"
+                },
+                {
+                    "imagePath": "/aboutPagePictures/vpcMicrophones.jpg",
+                    "caption": "Photo by ",
+                    "hrefText": "Abbey Magnet",
+                    "href": "https://theweeklyringer.com/2023/11/05/panel-discusses-aapi-culture-history-and-experiences-in-the-dmv-area/"
+                },
+                {
+                    "imagePath": "/aboutPagePictures/equitySummitVPC.jpg",
+                    "caption": "Photo by Matthew Gonzales"   
+                }
+            ]
+        },
+        {
+            "text": "History of Viet Place Collective",
+            "type": "header1"
+        },
+        {
+            "text": "Photo by Jenn Tran",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/edenLanterns.jpg"
+        },
+        {
+            "text": "Eden Center, a Vietnamese shopping center located in Falls Church in Northern Virginia, has for nearly 40 years been a cultural mainstay for Vietnamese people in the DC area, throughout the East Coast, and beyond. As the center of the Vietnamese community in the DMV (DC, Maryland, Virginia), Eden Center holds the Vietnamese-owned small businesses that keep alive a culture that is threatened with societal pressures of assimilation.\n\nWhen we learned in early 2022 that the City of Falls Church was planning to redevelop the area they call the “East End,” which includes Eden Center, we were concerned for the small businesses that make up the shopping center. If history is any indication, these businesses, a majority of which are Vietnamese-owned, would be at risk of displacement due to new development and a changing market commanding higher rent. Through inquiries, we discovered that the City had not done any outreach to Eden Center business owners, employees, or Vietnamese community members while they worked on their East End Small Area Plan (SAP).\n\n",
+            "type": "normalText"
+        },
+        {
+            "text": "Photo by City of Falls Church",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/fallsChurchCC.jpg"
+        },
+        {
+            "text": "Throughout 2022, we offered many suggestions to the planners to do more equitable outreach to the Vietnamese community, but they failed to follow through. Eventually, we took matters into our own hands and conducted outreach ourselves at Eden Center and online. We came together at the 2nd Community Meeting in November to push the City to do more inclusive outreach and make anti-displacement a priority of the plan. In acknowledgement of our pressures, the City released a survey in Vietnamese and Spanish and scheduled a Listening Session to solicit feedback from the community.\n\nWe named ourselves ",
+            "type": "normalText"
+        },
+        {
+            "text": "Viet Place Collective",
             "type": "boldText"
         },
         {
-            "text": "\n\nAlthough Arlington County was vocal about their support for the Vietnamese community when planning for additional development, they ultimately failed the community. At the time, the Executive Director of Clarendon Alliance said, \"We would like for the Vietnamese to stay [...] We don't want just a bunch of tall office buildings.\" Now, only one restaurant remains from Little Saigon.",
+            "text": " in December 2022. Energized by growing support for our campaign, we focused efforts in 2023 on increasing public awareness of the history of the Vietnamese community in Northern Virginia, helping Eden Center businesses and the greater community understand the consequences of redevelopment, and engaging with City Council officials to promote our SAP recommendations. In June 2023, the City Council unanimously voted to adopt the SAP, which incorporated our suggestions to create anti-displacement programs and hire a Vietnamese Community Outreach Specialist.",
             "type": "normalText"
         },
         {
-            "text": "\n\nWe suggest the following language:",
-            "type": "normalText"
+            "text": "Photo by VPC",
+            "type": "image",
+            "imagePath": "/aboutPagePictures/vpcTeam3.jpg"
         },
         {
-            "text": "\n\n\"The primary goal of this Small Area Plan is to provide detailed guidance for future development in the East End that will 1) actively prevent the commercial displacement of Vietnamese-owned businesses that define the cultural identity of the Eden Center and 2) ensure that businesses share in the benefits of any development in the area.\"",
-            "type": "boldText"
-        },
-        {
-            "text": "2. Add a legally-binding funding agreement that allocates a percentage of the tax revenue generated by Eden Center to fund anti-displacement programs and other community resources.",
-            "type": "header3"
-        },
-        {
-            "text": "Eden Center generates more tax revenue than any other property in the East End POA (over $1.3 million in 2020 alone). Its true economic impact is far greater than taxes — from job creation to cultural cachet, Eden Center’s impact should be re-evaluated by the City and directly re-invested into an anti- displacement fund to ensure the survival of the Vietnamese owned businesses. \n\nThe SAP currently only presents the property taxes generated at the Eden Center relative to other parcels around the city. Examining only property taxes omits its true economic impact (meals & sales tax, jobs), and furthers the false narrative of economic underutilization.",
-            "type": "normalText"
-        },
-        {
-            "text": "3. Implement culturally-relevant anti-displacement strategies in the SAP.",
-            "type": "header3"
-        },
-        {
-            "text": "NaN",
-            "type": "demand3Table"
-        },
-        {
-            "text": "4. Increase the total amount of free parking spaces.",
-            "type": "header3"
-        },
-        {
-            "text": "Though we acknowledge the desire of the City to increase community and retail use of space in the East End POA, not all square feet of the Area are equal. Parking is the #1 complaint of Eden Center business owners and customers. Increased parking is necessary to support the existing economic activity. We call on the Planning Commission to clarify and separate the Eden Center in their final plan from true “underutilized parking lots,” such as the BJ’s parking lot. While we long for a less car-dependent future and multi-modal transportation, it does not reflect the very real needs of Eden Center business owners and customers today who come from across the East Coast and largely outside of the public transit system. When asked about public transit, one community member stated:",
-            "type": "normalText"
-        },
-        {
-            "text": "\n\n\"I buy my groceries for the month; I couldn't take the bus carrying all my food.\"",
-            "type": "boldText"
-        },
-        {
-            "text": "\n\nThe current parking lot is insufficient for weekend and holiday crowds. This limits the number of customers patronizing businesses. One owner stated:",
-            "type": "normalText"
-        },
-        {
-            "text": "\n\n\"Even one day of limited parking kills my business.\"",
-            "type": "boldText"
-        },
-        {
-            "text": "5. Formally designate Planning Opportunity Area 5 as \"Little Saigon East\" and rename part of Wilson Blvd Saigon Blvd.",
-            "type": "header3"
-        },
-        {
-            "text": "We acknowledge and celebrate the City’s intention to rename Wilson Blvd as Saigon Blvd and other \"enhancements like a cohesive and culturally relevant design [...] and programming\" to better market the area's cultural identity. We call on the City to follow through with this plan of action. Eden Center is the largest Vietnamese commercial hub on the East Coast. Numerous community members recommended this at the January 2023 Listening Session. This is an opportunity for the City to celebrate Eden Center's regional prominence.",
-            "type": "normalText"
-        },
-        {
-            "text": "\n\nOne business owner agreed that rebranding the area as “Little Saigon East” would clarify Eden Center’s Vietnamese cultural identity and promote it to new in-state and out- of-state customers.",
-            "type": "boldText"
-        },
-        {
-            "text": "\n\nThis change would also indicate to potential developers the intangible cultural importance of Eden Center (similar to San Jose's or Seattle’s Little Saigon) in addition to its consistent and outsized economic performance as a source of revenue for the City.",
-            "type": "normalText"
-        },
-        {
-            "text": "6. Ensure infrastructure improvements and community safety as a requirement for any development plan.",
-            "type": "header3"
-        },
-        {
-            "text": "Although the draft SAP mentions that \"Larger redevelopments are expected to improve streetscape and utilities on their site,\" we call on the City to require that potential developers address community safety and accessibility concerns.\n\nThere is currently a lack of safe and accessible pedestrian and bike infrastructure on roads surrounding the Eden Center property. Based on our calculations from VDOT crash data, this deficiency has, from 2015 through 2023, contributed to over a hundred vehicle collisions and eleven where a pedestrian or bicyclist was injured by a vehicle. Bus stops within a quarter-mile walking distance of Eden Center do not have benches and shelters, resulting in a greater burden for all riders, particularly elderly riders. The only bus line that connects Eden Center to the East Falls Church Metrorail Station (26A), has an average wait time of 30 minutes\n\n Before the City's vision of multi-modal access to a re-developed East End can come true, infrastructure investments must make that car-independent travel possible.",
-            "type": "normalText"
-        },
-        {
-            "text": "7. Commission Vietnamese artists for any public art projects.",
-            "type": "header3"
-        },
-        {
-            "text": "We acknowledge and celebrate the City’s current plan to commission public art to showcase at Eden Center. Additionally, we call on the City to invite Vietnamese- American artists to design public art. Art is just one way to celebrate the contributions of the Vietnamese community to the City as well as an opportunity to revitalize the appearance of the area, denote its economic significance, and drive art- tourism.",
+            "text": "Since we began, we have grown from a collective of 7 to 20+ volunteers (and counting)! As a volunteer-led grassroots organization, we will continue advocating for the City to follow through with concrete measures and funding to preserve and uplift the small businesses that make Falls Church a Vietnamese cultural destination.",
             "type": "normalText"
         }
     ]
