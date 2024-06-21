@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <>
-      {!!width && width > 1000 ? 
+      {!!width && width > 1400 ? 
         <div className='flex flex-row p-8 items-center'>
           <div className='relative w-[100px] h-[100px]'>
             <a href='/'>
@@ -93,6 +93,26 @@ const Navbar = () => {
               </li>
               <li>
                 <LanguageSlider />
+              </li>
+              <li>
+                <a href='https://www.facebook.com/avietplace' target='_blank'>
+                  <Image 
+                    src={'/icons/facebook.svg'}
+                    alt='facebook icon'
+                    width={50}
+                    height={50}
+                  />
+                </a>
+              </li>
+              <li>
+                <a href='https://www.instagram.com/avietplace' target='_blank'>
+                  <Image 
+                    src={'/icons/instagram.svg'}
+                    alt='instagram icon'
+                    width={50}
+                    height={50}
+                  />
+                </a>
               </li>
             </ul>
           </div>
@@ -134,6 +154,24 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
+                  </li>
+                  <li className='flex flex-row justify-center mr-5 gap-5'>
+                    <a href='https://www.facebook.com/avietplace' target='_blank'>
+                      <Image 
+                        src={'/icons/facebook.svg'}
+                        alt='facebook icon'
+                        width={30}
+                        height={30}
+                      />
+                    </a>
+                    <a href='https://www.instagram.com/avietplace' target='_blank'>
+                      <Image 
+                        src={'/icons/instagram.svg'}
+                        alt='instagram icon'
+                        width={30}
+                        height={30}
+                      />
+                    </a>
                   </li>
                 </ul>
               </div>
