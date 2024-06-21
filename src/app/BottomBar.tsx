@@ -12,7 +12,7 @@ const BottomBar = () => {
     <section className='bg-medium-jade h-[50vh] lg:h-[20vh] flex flex-col lg:flex-row items-center justify-center relative'>
       <ul className={`grid gap-4 lg:gap-y-8 text-center ${!!width && width < 1020 ? 'grid-cols-1' : (!!width && width < 1200) ? 'grid-cols-2' : (!!width && width < 1500) ? 'grid-cols-3' : 'grid-cols-5'} text-white text-xl items-center lg:ml-10`}>
         <li>
-          <a href='/support'>{language === 'english' ? 'Support' : 'Ủng hộ'}</a>
+          <a href='https://givebutter.com/O8i9zl'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
         </li>
         <li>
           <a href='/about'>{language === 'english' ? 'About VPC' : 'Giới thiệu'}</a>
@@ -21,7 +21,7 @@ const BottomBar = () => {
           <a href='/media'>{language === 'english' ? 'Media' : 'Tin tức'}</a>
         </li>
         <li>
-          <a href='/get_involved'>{language === 'english' ? 'Get Involved' : 'Tin tức'}</a>
+          <a href='/get_involved'>{language === 'english' ? 'Get Involved' : 'Đóng Góp'}</a>
         </li>
         <li>
           <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>

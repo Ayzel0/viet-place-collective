@@ -141,7 +141,7 @@ const Navbar = () => {
               <div className={`absolute top-0 h-[100vh] right-0 bg-dark-jade w-[175px] transition ease-in-out duration-300 ${menuVisible ? 'translate-x-0' : 'translate-x-full'}`} ref={menuRef}>
                 <ul className='flex flex-col ml-5 gap-5 text-white mt-5'>  
                   <li>
-                    <a href='/support' className='text-black rounded-full bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Support' : 'Ủng hộ'}</a>
+                    <a href='https://givebutter.com/O8i9zl' className='text-black rounded-full bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
                   </li>
                   <li>
                     <a href='/about'>{language === 'english' ? 'About VPC' : 'Giới thiệu'}</a>
@@ -150,7 +150,7 @@ const Navbar = () => {
                     <a href='/media'>{language === 'english' ? 'Media' : 'Tin tức'}</a>
                   </li>
                   <li>
-                    <a href='/get_involved'>{language === 'english' ? 'Get Involved' : 'Tin tức'}</a>
+                    <a href='/get_involved'>{language === 'english' ? 'Get Involved' : 'Đóng Góp'}</a>
                   </li>
                   <li>
                     <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
