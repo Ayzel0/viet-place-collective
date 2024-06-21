@@ -35,7 +35,7 @@ const BottomBar = () => {
         className='lg:absolute mt-5 lg:mt-0'
       />
       <div className='lg:ml-auto lg:mr-10 flex justify-center items-center lg:w-[40vw] mx-[5%]'>
-        <p className='text-white text-xl text-center lg:text-right mt-10 lg:mt-0'>Viet Place Collective builds power across generations to uplift and uphold the Vietnamese community's legacy in the DMV.</p>
+        <p className='text-white text-xl text-center lg:text-right mt-10 lg:mt-0'>Viet Place Collective builds power across generations to uplift and uphold the Vietnamese community&apos;s legacy in the DMV.</p>
       </div>
     </section>
   )
