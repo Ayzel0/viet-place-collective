@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <>
-      {!!width && width > 1400 ? 
+      {!!width && width > 1200 ? 
         <div className='flex flex-row p-8 items-center'>
           <div className='relative w-[100px] h-[100px]'>
             <a href='/'>
@@ -75,7 +75,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className='ml-auto'>
-            <ul className='flex flex-row gap-10 text-white text-3xl items-center'>
+            <ul className='flex flex-row gap-10 text-white text-xl items-center'>
               <li>
                 <a href='/about'>{language === 'english' ? 'About VPC' : 'Giới thiệu'}</a>
               </li>
@@ -119,7 +119,7 @@ const Navbar = () => {
         </div>
         :
         <div className='relative'>
-          <div className='flex flex-row items-center relative mt-2'>
+          <div className='flex flex-row items-center relative'>
             <a className='ml-2 mr-auto h-[50px] flex flex-row items-center relative w-[50px] h-[50px]' href='/'>
               <Image 
                 src={'/vpcLogo.png'}

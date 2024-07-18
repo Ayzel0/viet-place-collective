@@ -82,8 +82,8 @@ const ImageCarousel = () => {
         :
         <div>
           {Object.keys(imageCarouselContent[language]).map((key, index) => ( 
-            <div key={index} className='my-5 flex'>
-              <div className='relative w-[40%] md:w-[60%] h-[400px]'>
+            <div key={index} className='my-5 flex flex-col'>
+              <div className='relative w-[100%] h-[300px]'>
                 <Image
                   src={imageCarouselContent[language][key].imagePath}
                   alt={''}
@@ -91,7 +91,7 @@ const ImageCarousel = () => {
                   className='object-cover'
                 />
               </div>
-              <div className='bg-medium-jade w-[60%] md:w-[40%] flex flex-col items-center justify-center'>
+              <div className='bg-medium-jade w-[100%] flex flex-col items-center justify-center py-4'>
                 <h2 className='text-white px-2 text-nowrap whitespace-pre-wrap text-2xl text-center'>{imageCarouselContent[language][key].title}</h2>
                 {imageCarouselContent[language][key].subtext &&
                   <p className='text-white text-sm px-4 my-4'>{imageCarouselContent[language][key].subtext}</p>
