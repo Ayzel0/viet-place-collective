@@ -13,7 +13,7 @@ const Page = () => {
 
   return (
     <div className='mx-[5%] lg:mx-[10%] xl:mx-[15%]'>
-      <h2 className='text-pink text-2xl font-semibold mt-8'>For media inquiries, email hello@avietplace.org</h2>
+      <h2 className='text-pink text-2xl font-semibold mt-8'>For media inquiries, email hello@avietplace.org.</h2>
       <h1 className='text-pale-yellow text-4xl font-semibold mt-8'>In the Press</h1>
       <h2 className='text-mint text-3xl mt-8'>Featured Articles</h2>
       <div className='h-1 w-full bg-pale-yellow rounded my-4' />

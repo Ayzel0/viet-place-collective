@@ -34,7 +34,7 @@ const page = () => {
       <div className='h-1 w-full bg-pale-yellow rounded my-4' />
       <div className='grid md:grid-cols-2 gap-8 mt-6'>
         {getInvolvedContent.eventsList.map((obj, index) => (
-          <a key={index} className='flex flex-col gap-0'>
+          <a key={index} className='relative'>
             <div className='relative flex justify-center'>
               <Image 
                 src={obj.imagePath}
@@ -44,7 +44,7 @@ const page = () => {
                 className='object-contain'
               />
             </div>
-            <h2 className='text-center w-[full] bg-medium-jade bottom-0 px-10 py-2 rounded-b-md text-mint'>{obj.title}</h2>
+            <h2 className='absolute bottom-5 -translate-x-[50%] left-[50%] text-mint text-center font-semibold text-shadow-md text-xl'>{obj.title}</h2>
           </a>
         ))}
       </div>
@@ -73,24 +73,27 @@ const page = () => {
           </div>
         ))}
       </div>
-      <div className='grid grid-cols-2 mb-10 gap-x-10 relative'>
-        <a className='relative' href='https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform'>
+      <div className='h-1 w-full bg-pale-yellow rounded my-4 mb-10' />
+      <div className='grid md:grid-cols-2 mb-10 gap-x-10 gap-y-10 relative'>
+        <a className='relative z-0' href='https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform'>
+          <div className='absolute bg-dark-jade z-10 w-full h-full opacity-50 hover:opacity-25 transition-[opacity]' />
           <Image 
             src={getInvolvedContent.volunteerDonate.volunteer.imagePath}
             alt={'Volunteer'}
             height={1000}
             width={1000}
           />
-          <h3 className='absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] text-[4rem] font-bold text-pale-yellow text-shadow-md'>Volunteer</h3>
+          <h3 className='absolute z-20 top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] text-[3rem] lg:text-[4rem] font-bold text-pale-yellow'>Volunteer</h3>
         </a>
-        <a className="relative" href='https://givebutter.com/O8i9zl'>
+        <a className="relative z-0" href='https://givebutter.com/O8i9zl'>
+          <div className='absolute bg-dark-jade z-10 w-full h-full opacity-50 hover:opacity-25 transition-[opacity]' />
           <Image 
             src={getInvolvedContent.volunteerDonate.donate.imagePath}
             alt={'Volunteer'}
             height={1000}
             width={1000}
           />
-          <h3 className='absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] text-[4rem] font-bold text-pale-yellow text-shadow-md'>Donate</h3>
+          <h3 className='absolute z-20 top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] text-[3rem] lg:text-[4rem] font-bold text-pale-yellow'>Donate</h3>
         </a>
       </div>
     </div>

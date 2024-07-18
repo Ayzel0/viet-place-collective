@@ -9,7 +9,7 @@ const BottomBar = () => {
   const { width, height } = useWindowDimensions();
 
   return (
-    <section className='bg-medium-jade h-[80vh] lg:h-[40vh] flex flex-col lg:flex-row items-center justify-center relative'>
+    <section className='bg-medium-jade h-[80vh] lg:h-[40vh] xl:h-[30vh] flex flex-col lg:flex-row items-center justify-center relative'>
       <div className='flex flex-col'>
         <h1 className='text-mint lg:ml-10 text-2xl font-semibold'>Site Navigation</h1>
         <div className='h-1 bg-mint lg:ml-10 my-2'/>
