@@ -92,7 +92,7 @@ const Page = () => {
             {textContent.threeImageContent?.map((obj, index) => (
               <div key={index} className='relative'>
                 <Image 
-                  className='aspect-video'
+                  className='aspect-video object-cover'
                   src={obj.imagePath}
                   alt={''}
                   width={500}
@@ -110,8 +110,8 @@ const Page = () => {
           break;
         case 'threeImageBox':
           element = 
-          <div className='flex my-5 w-[85vw] overflow-x-hidden lg:w-[60vw]'>
-            <div className='relative w-[300px] h-[180px] md:h-[275px]'>
+          <div className='flex my-5 w-[85vw] overflow-x-hidden lg:w-[70vw]'>
+            <div className='relative w-[350px] h-[180px] md:h-[275px]'>
               <Image 
                 src={'/aboutPagePictures/vpcAtEden.jpg'}
                 alt={"VPC Team at Eden Center"}
@@ -120,7 +120,7 @@ const Page = () => {
               />
               <p className='absolute bottom-0 left-0 bg-charcoal px-3 py-1 text-mint text-sm rounded-tr-3xl'>Photos by VPC</p>
             </div>
-            <div className='relative w-[150px] h-[180px] md:h-[275px]'>
+            <div className='relative w-[200px] h-[180px] md:h-[275px]'>
               <Image 
                 src={'/aboutPagePictures/vpcTalking.JPG'}
                 alt="VPC team talking to people at Eden"
@@ -128,7 +128,7 @@ const Page = () => {
                 className='object-cover'
               />
             </div>
-            <div className='relative w-[400px] h-[180px] md:h-[275px]'>
+            <div className='relative w-[450px] h-[180px] md:h-[275px]'>
               <Image 
                 src={'/aboutPagePictures/vpcEden2.jpg'}
                 alt="VPC team presenting at Eden"

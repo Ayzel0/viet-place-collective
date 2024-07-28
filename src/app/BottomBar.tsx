@@ -9,11 +9,11 @@ const BottomBar = () => {
   const { width, height } = useWindowDimensions();
 
   return (
-    <section className='bg-medium-jade h-[80vh] lg:h-[40vh] xl:h-[30vh] flex flex-col lg:flex-row items-center justify-center relative'>
+    <section className='bg-medium-jade h-[60vh] lg:h-[40vh] xl:h-[30vh] flex flex-col lg:flex-row items-center justify-center relative'>
       <div className='flex flex-col'>
         <h1 className='text-mint lg:ml-10 text-2xl font-semibold'>Site Navigation</h1>
         <div className='h-1 bg-mint lg:ml-10 my-2'/>
-        <ul className={`mt-5 grid gap-4 lg:gap-y-8 text-left text-white text-xl items-center lg:ml-10 grid-cols-2 lg:grid-cols-3 lg:gap-x-8`}>
+        <ul className={`mt-5 grid gap-4 lg:gap-y-8 text-left text-white text-xl items-center lg:ml-10 grid-cols-1 text-center lg:text-left lg:grid-cols-3 lg:gap-x-8`}>
           <li>
             <a href='https://givebutter.com/O8i9zl'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
           </li>

@@ -94,8 +94,8 @@ export default async function Home() {
 
   return (
     <main>
+      <TitleBar />
       <div className='mx-[10%] lg:mx-[12%] xl:mx-[15%] relative z-10'>
-        <TitleBar />
         <div className='w-full h-1 bg-medium-gold my-5' />
         <ImageCarousel />
         <div className='w-full h-1 bg-medium-gold mt-5' />

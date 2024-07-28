@@ -13,8 +13,10 @@ const Navbar = () => {
   const [isMounted, setIsMounted] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const menuRef = useRef<HTMLDivElement>(null);
+  const navbarRef = useRef<HTMLDivElement>(null);
 
   const handleMenuClick = () => {
     setShowMenu(true);
@@ -40,8 +42,24 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
     setIsMounted(true);
-  }, [])
+  }, []);
 
   if (!isMounted) {
     return (
@@ -63,7 +81,13 @@ const Navbar = () => {
   return (
     <>
       {!!width && width > 1200 ? 
-        <div className='flex flex-row p-8 items-center'>
+        <div 
+          className={`relative z-50 
+            bg-gradient-to-b from-dark-jade to-transparent 
+            flex flex-row p-8 items-center 
+            sticky top-0 transition-transform duration-300 ${isScrolled && '-translate-y-[100%]'}`}
+          ref={navbarRef}
+        >
           <div className='relative w-[100px] h-[100px]'>
             <a href='/'>
               <Image 
@@ -118,7 +142,11 @@ const Navbar = () => {
           </div>
         </div>
         :
-        <div className='relative'>
+        <div
+          className={`relative z-50 p-8
+            bg-gradient-to-b from-dark-jade to-transparent 
+            sticky top-0 transition-transform duration-300 ${isScrolled && '-translate-y-[100%]'}`}
+        >
           <div className='flex flex-row items-center relative'>
             <a className='ml-2 mr-auto h-[50px] flex flex-row items-center relative w-[50px] h-[50px]' href='/'>
               <Image 
