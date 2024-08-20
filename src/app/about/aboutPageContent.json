@@ -75,7 +75,7 @@
         },
         {
             "text": "Read the full report",
-            "type": "link",
+            "type": "bigLink",
             "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
         },
         {
@@ -106,7 +106,7 @@
         },
         {
             "text": "Read one-pager",
-            "type": "link",
+            "type": "bigLink",
             "href": "https://drive.google.com/file/d/14CljrvbA-uHV7a2S-zMPcU3ofwH8tksx/view"
         },
         {
@@ -257,7 +257,7 @@
                 },
                 {
                     "imagePath": "/aboutPagePictures/equitySummitVPC.jpg",
-                    "caption": "Photo by Matthew Gonzales"   
+                    "caption": "Photo by Smart Growth America"   
                 }
             ]
         },
@@ -377,7 +377,7 @@
         },
         {
             "text": "Read the full report",
-            "type": "link",
+            "type": "bigLink",
             "href": "https://drive.google.com/file/d/1OJgty9dGfgbvHcoeicVbTb_AIcCeKFCl/view"
         },
         {
@@ -408,7 +408,7 @@
         },
         {
             "text": "Read one-pager",
-            "type": "link",
+            "type": "bigLink",
             "href": "https://drive.google.com/file/d/14CljrvbA-uHV7a2S-zMPcU3ofwH8tksx/view"
         },
         {

@@ -36,6 +36,7 @@ const page = () => {
         {getInvolvedContent.eventsList.map((obj, index) => (
           <a key={index} className='relative'>
             <div className='relative flex justify-center'>
+              <div className='absolute bg-dark-jade z-10 w-full h-full opacity-50 hover:opacity-25 transition-[opacity]' />
               <Image 
                 src={obj.imagePath}
                 alt={obj.title}
@@ -44,7 +45,7 @@ const page = () => {
                 className='object-contain'
               />
             </div>
-            <h2 className='absolute bottom-5 -translate-x-[50%] left-[50%] text-mint text-center font-semibold text-shadow-md text-xl'>{obj.title}</h2>
+            <h2 className='absolute bottom-5 z-20 -translate-x-[50%] left-[50%] text-mint text-center font-semibold text-shadow-md text-xl'>{obj.title}</h2>
           </a>
         ))}
       </div>
@@ -85,7 +86,7 @@ const page = () => {
           />
           <h3 className='absolute z-20 top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] text-[3rem] lg:text-[4rem] font-bold text-pale-yellow'>Volunteer</h3>
         </a>
-        <a className="relative z-0" href='https://givebutter.com/O8i9zl'>
+        <a className="relative z-0" href='https://givebutter.com/avietplace'>
           <div className='absolute bg-dark-jade z-10 w-full h-full opacity-50 hover:opacity-25 transition-[opacity]' />
           <Image 
             src={getInvolvedContent.volunteerDonate.donate.imagePath}

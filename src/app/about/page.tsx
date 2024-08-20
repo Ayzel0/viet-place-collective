@@ -48,7 +48,7 @@ const Page = () => {
         case 'image':
           element = 
           <div className='my-5 flex justify-center'>
-            <div className='w-[full] md:w-[50%] relative'>
+            <div className='w-[full] md:w-[50%] relative group'>
               <Image 
                 src={textContent.imagePath as string}
                 alt={""}
@@ -56,7 +56,7 @@ const Page = () => {
                 height={1000}
               />
               {textContent.text !== "" && 
-                <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>
+                <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl opacity-0 group-hover:opacity-100 transition-[opacity]'>
                   {textContent.text}
                   {textContent.href &&
                     <a href={textContent.href} className='underline'>{textContent.hrefText}</a>
@@ -90,7 +90,7 @@ const Page = () => {
           element = 
           <div className='grid md:grid-cols-3 gap-2'>
             {textContent.threeImageContent?.map((obj, index) => (
-              <div key={index} className='relative'>
+              <div key={index} className='relative group'>
                 <Image 
                   className='aspect-video object-cover'
                   src={obj.imagePath}
@@ -98,7 +98,7 @@ const Page = () => {
                   width={500}
                   height={500}
                 />
-                <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>
+                <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl opacity-0 transition-[opacity] group-hover:opacity-100'>
                   {obj.caption}
                   {obj.hrefText &&
                     <a href={obj.href} className='underline'>{obj.hrefText}</a>
@@ -111,14 +111,14 @@ const Page = () => {
         case 'threeImageBox':
           element = 
           <div className='flex my-5 w-[85vw] overflow-x-hidden lg:w-[70vw]'>
-            <div className='relative w-[350px] h-[180px] md:h-[275px]'>
+            <div className='relative w-[350px] h-[180px] md:h-[275px] group'>
               <Image 
                 src={'/aboutPagePictures/vpcAtEden.jpg'}
                 alt={"VPC Team at Eden Center"}
                 fill
                 className='object-cover'
               />
-              <p className='absolute bottom-0 left-0 bg-charcoal px-3 py-1 text-mint text-sm rounded-tr-3xl'>Photos by VPC</p>
+              <p className='absolute bottom-0 left-0 bg-charcoal px-3 py-1 text-mint text-sm rounded-tr-3xl transition-[opacity] opacity-0 group-hover:opacity-100'>Photos by VPC</p>
             </div>
             <div className='relative w-[200px] h-[180px] md:h-[275px]'>
               <Image 
@@ -128,14 +128,14 @@ const Page = () => {
                 className='object-cover'
               />
             </div>
-            <div className='relative w-[450px] h-[180px] md:h-[275px]'>
+            <div className='relative w-[450px] h-[180px] md:h-[275px] group'>
               <Image 
                 src={'/aboutPagePictures/vpcEden2.jpg'}
                 alt="VPC team presenting at Eden"
                 fill
                 className='object-cover'
               />
-              <p className='absolute bottom-0 left-0 bg-charcoal px-3 py-1 text-mint text-sm rounded-tr-3xl'>Photo by <a className='underline' href="https://www.valerieplesch.com/">Valerie Plesch</a></p>
+              <p className='absolute bottom-0 left-0 bg-charcoal px-3 py-1 text-mint text-sm rounded-tr-3xl transition-[opacity] opacity-0 group-hover:opacity-100'>Photo by <a className='underline' href="https://www.valerieplesch.com/">Valerie Plesch</a></p>
             </div>
           </div>
           break;
@@ -174,6 +174,11 @@ const Page = () => {
             <a href={textContent.href}>{textContent.text}</a>
           </span>
           break;
+        case 'bigLink': 
+            element = <span className='bg-mint text-xl rounded-lg text-black px-8 py-2 hover:brightness-75 transition-all'>
+              <a href={textContent.href}>{textContent.text}</a>
+            </span>
+            break;
       }
       return element;
     }
@@ -192,7 +197,7 @@ const Page = () => {
   return (
     <div className='grid lg:grid-cols-5 mx-[5%] xl:mx-[10%]'>
       <div className='lg:mx-[10%]'>
-        <div className='lg:sticky top-8 bg-mint rounded-xl mt-8 p-4'>
+        <div className='lg:sticky top-8 bg-mint rounded-lg mt-8 p-4'>
           <h3 className='text-dark-jade font-semibold text-xl'>Table of Contents</h3>
           {aboutPageContent['english'].map((textContent, index) => (
             (textContent.type === 'header1' || textContent.type === 'header2') &&

@@ -71,7 +71,7 @@ const ImageCarousel = () => {
                   <p className={`text-white text-sm px-4 my-4 transition-[opacity] ${expandedImageIndex === index ? 'opacity-100 delay-500 ease-in-out duration-500' : 'opacity-0 duration-100'}`}>{imageCarouselContent[language][key].subtext}</p>
                 }
                 {imageCarouselContent[language][key].buttons.map((button, index) => (
-                  <a className='bg-charcoal rounded-md mt-2 w-[50%] text-center' key={index} href={button.link}>
+                  <a className='bg-charcoal rounded-lg mt-2 w-[50%] text-center' key={index} href={button.link}>
                     <h3 className={`text-white py-2 text-lg text-nowrap ${fraunces.className}`}>{button.text}</h3>
                   </a>
                 ))}
@@ -97,7 +97,7 @@ const ImageCarousel = () => {
                   <p className='text-white text-sm px-4 my-4'>{imageCarouselContent[language][key].subtext}</p>
                 }
                 {imageCarouselContent[language][key].buttons.map((button, index) => (
-                  <a className='bg-charcoal rounded-md mt-2 w-[50%] text-center' key={index} href={button.link}>
+                  <a className='bg-charcoal rounded-lg mt-2 w-[50%] text-center' key={index} href={button.link}>
                     <h3 className={`text-white py-2 text-lg text-nowrap ${fraunces.className}`}>{button.text}</h3>
                   </a>
                 ))}

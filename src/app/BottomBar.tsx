@@ -6,10 +6,9 @@ import Image from "next/image";
 
 const BottomBar = () => {
   const { language, setLanguage } = useLanguage();
-  const { width, height } = useWindowDimensions();
 
   return (
-    <section className='bg-medium-jade h-[60vh] lg:h-[40vh] xl:h-[30vh] flex flex-col lg:flex-row items-center justify-center relative'>
+    <section className='bg-medium-jade h-[75vh] lg:h-[40vh] xl:h-[30vh] flex flex-col lg:flex-row items-center justify-center relative'>
       <div className='flex flex-col'>
         <h1 className='text-mint lg:ml-10 text-2xl font-semibold'>Site Navigation</h1>
         <div className='h-1 bg-mint lg:ml-10 my-2'/>
@@ -28,6 +27,26 @@ const BottomBar = () => {
           </li>
           <li>
             <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
+          </li>
+          <li className='flex justify-center lg:justify-start'>
+            <div className='flex gap-2'>
+              <a href='https://www.facebook.com/avietplace' target='_blank'>
+                <Image 
+                  src={'/icons/facebook.svg'}
+                  alt='facebook icon'
+                  width={30}
+                  height={30}
+                />
+              </a>
+              <a href='https://www.instagram.com/avietplace' target='_blank'>
+                <Image 
+                  src={'/icons/instagram.svg'}
+                  alt='instagram icon'
+                  width={30}
+                  height={30}
+                />
+              </a>
+            </div>
           </li>
         </ul>
       </div>
