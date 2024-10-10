@@ -115,9 +115,9 @@ const Navbar = () => {
               <li>
                 <a href='https://givebutter.com/avietplace' className='text-black rounded-lg bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
               </li>
-              <li>
+              {/* <li>
                 <LanguageSlider />
-              </li>
+              </li> */}
               <li>
                 <a href='https://www.facebook.com/avietplace' target='_blank'>
                   <Image 
@@ -156,7 +156,7 @@ const Navbar = () => {
                 className='object-contain'
               />
             </a>
-            <LanguageSlider />
+            {/* <LanguageSlider /> */}
             <Image 
               src={HamburgerMenu}
               alt={'hamburger menu'} 
@@ -168,6 +168,7 @@ const Navbar = () => {
             <div className={`fixed top-0 bottom-0 left-0 right-0 z-[500] ${menuVisible && 'bg-slate-800 bg-opacity-50'}`}>
               <div className={`absolute top-0 h-[100vh] right-0 bg-dark-jade w-[175px] transition ease-in-out duration-300 ${menuVisible ? 'translate-x-0' : 'translate-x-full'}`} ref={menuRef}>
                 <ul className='flex flex-col ml-5 gap-5 text-white mt-5'>  
+                  {/* these are the buttons on the navbar */}
                   <li>
                     <a href='https://givebutter.com/avietplace' className='text-black rounded-lg bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
                   </li>

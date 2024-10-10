@@ -149,13 +149,14 @@ const Page = () => {
           element = <span className={`font-bold text-mint`}>{textContent.text}</span>
           break;
         case 'header1':
-          element = <h1 id={textContent.text.split(' ').join('')} className='text-pale-yellow text-xl lg:text-3xl xl:text-4xl font-semibold my-8'>
-            {textContent.href ?
-             <a href={textContent.href}>{textContent.text}</a>
-             :
-             textContent.text
-            }
-          </h1>
+          element = 
+            <h1 id={textContent.text.split(' ').join('')} className='text-pale-yellow text-xl lg:text-3xl xl:text-4xl font-semibold my-8'>
+              {textContent.href ?
+              <a href={textContent.href}>{textContent.text}</a>
+              :
+              textContent.text
+              }
+            </h1>
           break;
         case 'header2':
           element = <h2 id={textContent.text.split(' ').join('')} className='text-mint text-lg lg:text-2xl xl:text-3xl mt-8 mb-4'>
