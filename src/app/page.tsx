@@ -37,14 +37,14 @@ export default async function Home() {
       case 'image': 
         element = 
         <div className='flex justify-center my-5'>
-          <div className='relative w-[250px] md:w-[350px] lg:w-[500px] h-[200px] md:w-[300px] lg:h-[400px]'>
+          <div className='relative w-[250px] md:w-[350px] lg:w-[500px] h-[200px] md:w-[300px] lg:h-[400px] group'>
             <Image 
               src={textContent.imagePath as string}
               alt={''}
               fill
               className='object-cover'
             />
-            <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl'>{textContent.text}
+            <p className='absolute bottom-0 left-0 bg-charcoal px-4 py-2 text-mint rounded-tr-3xl opacity-0 group-hover:opacity-100 transition-[opacity]'>{textContent.text}
               {textContent.hrefText &&
                 <a href={textContent.href} className='underline'>{textContent.hrefText}</a>
               }

@@ -34,17 +34,13 @@
             ]
         },
         "3": {
-            "imagePath": "/frontPagePictures/anMungCelebration2.png",
-            "title": "ăn mừng",
-            "subtext": "Join us to celebrate VPC’s victories uplifting our community and Vietnamese small businesses!",
+            "imagePath": "/frontPagePictures/vpcHappyHour.png",
+            "title": "VPC Happy Hour",
+            "subtext": "Connect with our community of organizers and supporters over food and drinks at Maketto!!",
             "buttons": [
                 {
-                    "text": "Get Tickets",
-                    "link": "https://givebutter.com/avietplace"
-                },
-                {
                     "text": "All Events",
-                    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform"
+                    "link": "/get_involved"
                 }
             ]
         }
