@@ -37,20 +37,20 @@ const NewsletterPanel = ({url}: {url: string}) => {
   }, [url])
 
   return (
-    <div className='h-full bg-mint rounded-xl p-4'>
+    <div className='h-full bg-mint rounded-xl p-5'>
       {articleData.title !== '' ?
         <a href={url}>
           <div>
-            <h2 className='text-xl text-dark-gold'>{articleData.author}</h2>
-            <h2 className='text-xl text-dark-gold mt-2'>{articleData.siteName}</h2>
-            <h1 className='text-dark-jade text-2xl my-2'>{articleData.title}</h1>
+            {/* <p className='text-dark-jade'>{articleData.author}</p> */}
+            <p className='text-lg text-dark-gold mb-2.5'>{articleData.siteName}</p>
+            <h3 className='text-2xl text-dark-jade font-bold mb-2.5'>{articleData.title}</h3>
             <img src={articleData.image}/>
-            <p className='my-2 text-dark-jade'>{articleData.description}</p>
+            <p className='text-sm text-dark-jade mt-2.5'>{articleData.description}</p>
           </div>
         </a>
         :
         <div>
-          <h2>Loading...</h2>
+          <h3>Loading...</h3>
         </div>
       }
     </div>
