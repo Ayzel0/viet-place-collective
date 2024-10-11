@@ -63,7 +63,7 @@ const Navbar = () => {
 
   if (!isMounted) {
     return (
-      <div className='p-8'>
+      <div className='px-10 py-8'>
         <div className='relative w-[100px] h-[100px]'>
           <a href='/'>
             <Image 
@@ -84,7 +84,7 @@ const Navbar = () => {
         <div 
           className={`relative z-50 
             bg-gradient-to-b from-dark-jade to-transparent 
-            flex flex-row p-8 items-center 
+            flex flex-row px-10 py-8 items-center 
             sticky top-0 transition-transform duration-300 ${isScrolled && '-translate-y-[100%]'}`}
           ref={navbarRef}
         >
@@ -143,7 +143,7 @@ const Navbar = () => {
         </div>
         :
         <div
-          className={`relative z-50 p-8
+          className={`relative z-50 px-10 py-8
             bg-gradient-to-b from-dark-jade to-transparent 
             sticky top-0 transition-transform duration-300 ${isScrolled && '-translate-y-[100%]'}`}
         >
@@ -165,7 +165,7 @@ const Navbar = () => {
               onClick={handleMenuClick}
             />
           </div>
-          
+
           {/* nav bar mobile view upon opening hamburger menu */}
           {showMenu &&
             <div className={`fixed top-0 bottom-0 left-0 right-0 z-[500] ${menuVisible && 'bg-slate-800 bg-opacity-50'}`}>
