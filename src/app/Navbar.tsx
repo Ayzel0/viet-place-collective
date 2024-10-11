@@ -79,7 +79,7 @@ const Navbar = () => {
   }
 
   return (
-    <>
+    <> {/* nav bar desktop view */}
       {!!width && width > 1200 ? 
         <div 
           className={`relative z-50 
@@ -99,7 +99,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className='ml-auto'>
-            <ul className='flex flex-row gap-10 text-white text-xl items-center'>
+            <ul className='flex flex-row gap-10 text-tan text-2xl items-center'>
               <li>
                 <a href='/about'>{language === 'english' ? 'About VPC' : 'Giới thiệu'}</a>
               </li>
@@ -123,8 +123,8 @@ const Navbar = () => {
                   <Image 
                     src={'/icons/facebook.svg'}
                     alt='facebook icon'
-                    width={50}
-                    height={50}
+                    width={30}
+                    height={30}
                   />
                 </a>
               </li>
@@ -133,8 +133,8 @@ const Navbar = () => {
                   <Image 
                     src={'/icons/instagram.svg'}
                     alt='instagram icon'
-                    width={50}
-                    height={50}
+                    width={25}
+                    height={25}
                   />
                 </a>
               </li>
@@ -147,6 +147,7 @@ const Navbar = () => {
             bg-gradient-to-b from-dark-jade to-transparent 
             sticky top-0 transition-transform duration-300 ${isScrolled && '-translate-y-[100%]'}`}
         >
+          {/* nav bar mobile view */}
           <div className='flex flex-row items-center relative'>
             <a className='ml-2 mr-auto h-[50px] flex flex-row items-center relative w-[50px] h-[50px]' href='/'>
               <Image 
@@ -164,14 +165,12 @@ const Navbar = () => {
               onClick={handleMenuClick}
             />
           </div>
+          
+          {/* nav bar mobile view upon opening hamburger menu */}
           {showMenu &&
             <div className={`fixed top-0 bottom-0 left-0 right-0 z-[500] ${menuVisible && 'bg-slate-800 bg-opacity-50'}`}>
-              <div className={`absolute top-0 h-[100vh] right-0 bg-dark-jade w-[175px] transition ease-in-out duration-300 ${menuVisible ? 'translate-x-0' : 'translate-x-full'}`} ref={menuRef}>
-                <ul className='flex flex-col ml-5 gap-5 text-white mt-5'>  
-                  {/* these are the buttons on the navbar */}
-                  <li>
-                    <a href='https://givebutter.com/avietplace' className='text-black rounded-lg bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
-                  </li>
+              <div className={`absolute top-0 h-[100vh] right-0 bg-dark-jade w-[225px] transition ease-in-out duration-300 ${menuVisible ? 'translate-x-0' : 'translate-x-full'}`} ref={menuRef}>
+                <ul className='flex flex-col gap-10 text-tan text-xl mt-14 items-center'>
                   <li>
                     <a href='/about'>{language === 'english' ? 'About VPC' : 'Giới thiệu'}</a>
                   </li>
@@ -184,7 +183,10 @@ const Navbar = () => {
                   <li>
                     <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
                   </li>
-                  <li className='flex flex-row justify-center mr-5 gap-5'>
+                  <li>
+                    <a href='https://givebutter.com/avietplace' className='text-black rounded-lg bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
+                  </li>
+                  <li className='flex flex-row justify-center gap-10'>
                     <a href='https://www.facebook.com/avietplace' target='_blank'>
                       <Image 
                         src={'/icons/facebook.svg'}
