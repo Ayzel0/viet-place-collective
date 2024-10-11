@@ -63,6 +63,7 @@ const Navbar = () => {
 
   if (!isMounted) {
     return (
+      // logo
       <div className='px-10 py-8'>
         <div className='relative w-[100px] h-[100px]'>
           <a href='/'>
@@ -88,6 +89,7 @@ const Navbar = () => {
             sticky top-0 transition-transform duration-300 ${isScrolled && '-translate-y-[100%]'}`}
           ref={navbarRef}
         >
+          {/* logo */}
           <div className='relative w-[100px] h-[100px]'>
             <a href='/'>
               <Image 
@@ -98,6 +100,8 @@ const Navbar = () => {
               />
             </a>
           </div>
+
+          {/* links */}
           <div className='ml-auto'>
             <ul className='flex flex-row gap-10 text-tan text-2xl items-center'>
               <li>
@@ -149,6 +153,7 @@ const Navbar = () => {
         >
           {/* nav bar mobile view */}
           <div className='flex flex-row items-center relative'>
+            
             <a className='ml-2 mr-auto h-[50px] flex flex-row items-center relative w-[50px] h-[50px]' href='/'>
               <Image 
                 src={'/vpcLogo.png'}
