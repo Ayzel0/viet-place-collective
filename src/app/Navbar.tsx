@@ -117,7 +117,7 @@ const Navbar = () => {
                 <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
               </li>
               <li>
-                <a href='https://givebutter.com/avietplace' className='text-black rounded-lg bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
+                <a href='https://givebutter.com/avietplace' className='px-5 py-2.5 rounded-lg bg-mint text-dark-jade hover:bg-pale-yellow transition-all'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
               </li>
               {/* <li>
                 <LanguageSlider />
@@ -189,7 +189,7 @@ const Navbar = () => {
                     <a href='/contact'>{language === 'english' ? 'Contact' : 'Liên hệ'}</a>
                   </li>
                   <li>
-                    <a href='https://givebutter.com/avietplace' className='text-black rounded-lg bg-mint hover:brightness-75 px-5 py-2'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
+                    <a href='https://givebutter.com/avietplace' className='px-5 py-2.5 rounded-lg bg-mint text-dark-jade hover:bg-pale-yellow transition-all'>{language === 'english' ? 'Donate' : 'Ủng hộ'}</a>
                   </li>
                   <li className='flex flex-row justify-center gap-10'>
                     <a href='https://www.facebook.com/avietplace' target='_blank'>
