@@ -31,7 +31,6 @@ const page = () => {
   return (
     <div className='mx-[5%] lg:mx-[10%] xl:mx-[15%]'>
       <h1 className='text-pale-yellow font-semibold text-4xl mt-8'>Events</h1>
-      <div className='h-1 w-full bg-pale-yellow rounded my-4' />
       <div className='grid md:grid-cols-2 gap-8 mt-6'>
         {getInvolvedContent.eventsList.map((obj, index) => (
           <a key={index} className='relative'>
@@ -49,8 +48,9 @@ const page = () => {
           </a>
         ))}
       </div>
+      <div className='h-1 w-full bg-bright-yellow rounded-lg my-10' /> {/* line */}
+
       <h1 className='text-pale-yellow font-semibold text-4xl mt-8'>Past Action Alerts</h1>
-      <div className='h-1 w-full bg-pale-yellow rounded my-4' />
       <div className='grid grid-cols-2 lg:grid-cols-5 gap-8 mt-6 mb-10'>
         {getInvolvedContent.pastActionAlerts.map((obj, index) => (
           <div key={index}>
@@ -74,7 +74,7 @@ const page = () => {
           </div>
         ))}
       </div>
-      <div className='h-1 w-full bg-pale-yellow rounded my-4 mb-10' />
+      <div className='h-1 w-full bg-bright-yellow rounded-lg my-10' /> {/* line */}
       <div className='grid md:grid-cols-2 mb-10 gap-x-10 gap-y-10 relative'>
         <a className='relative z-0' href='https://docs.google.com/forms/d/e/1FAIpQLSdk5l18D0uwxwLxYXRhZXibiwdYt63wvIPfZ4WtUDaTPrtWwQ/viewform'>
           <div className='absolute bg-dark-jade z-10 w-full h-full opacity-50 hover:opacity-25 transition-[opacity]' />

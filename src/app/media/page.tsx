@@ -15,11 +15,11 @@ const Page = () => {
     <div className='mx-[5%] lg:mx-[10%] xl:mx-[15%]'>
       {/* intro text */}
       <p className='text-tan text-lg'>For media inquiries, email hello@avietplace.org.</p>
-      <h1 className='text-pale-yellow text-5xl font-bold mt-10'>In the Press</h1>
+      <h1 className='text-pale-yellow text-5xl font-bold my-10'>In the Press</h1>
+      <div className='h-1 w-full bg-bright-yellow rounded-lg my-10' /> {/* line */}
 
       {/* featured articles */}
-      <h2 className='text-tan text-3xl mt-10'>Featured Articles</h2> {/* header */}
-      <div className='h-1 w-full bg-pale-yellow rounded-lg my-5' /> {/* line */}
+      <h2 className='text-tan text-3xl mb-5'>Featured Articles</h2> {/* header */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'> {/* 3-article feed */}
         {featured.map((link, index) => (
           <div key={index}>
@@ -27,10 +27,10 @@ const Page = () => {
           </div>
         ))}
       </div>
+      <div className='h-1 w-full bg-bright-yellow rounded-lg my-10' /> {/* line */}
 
       {/* recent articles */}
-      <h2 className='text-tan text-3xl mt-10'>Recent Articles</h2> {/* header */}
-      <div className='h-1 w-full bg-pale-yellow rounded-lg my-5' /> {/* line */}
+      <h2 className='text-tan text-3xl mb-5'>Recent Articles</h2> {/* header */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10"> {/* feed */}
         {other.map((link, index) => (
           <div key={index}>
