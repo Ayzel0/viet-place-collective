@@ -96,9 +96,9 @@ export default async function Home() {
     <main>
       <TitleBar />
       <div className='mx-[10%] lg:mx-[12%] xl:mx-[15%] relative z-10'>
-        <div className='w-full h-1 bg-medium-gold my-5' />
+      <div className='h-1 w-full bg-bright-yellow rounded-lg my-10' /> {/* line */}
         <ImageCarousel />
-        <div className='w-full h-1 bg-medium-gold mt-5' />
+        <div className='h-1 w-full bg-bright-yellow rounded-lg my-10' /> {/* line */}
         <h2 className='text-pale-yellow mt-8 text-3xl font-semibold'>By the Numbers</h2>
         <h1 className='text-white text-center py-4 text-xl my-2 font-semibold'>“The most equity language in a Small Area Plan in Falls Church City history” <br></br>- Derek Hyra, Falls Church City Planning Commissioner</h1>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 my-4'>
@@ -119,7 +119,7 @@ export default async function Home() {
             </div>
           ))}
         </div>
-        <div className='w-full h-1 bg-medium-gold my-5' />
+        <div className='h-1 w-full bg-bright-yellow rounded-lg my-10' /> {/* line */}
         
         <div className="mt-8">
           {inFallsChurch.map((obj, index) => (
