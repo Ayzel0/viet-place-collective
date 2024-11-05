@@ -2,13 +2,19 @@
     "eventsList": [
         {
             "imagePath": "/disappearanceTeachIn.JPG",
-            "title": "The 'Disappearance' of Little Saigon Clarendon: Teach-In & Forum",
-            "date": "May 18, 2024"
+            "title": "The 'Disappearance' of Little Saigon Clarendon: Teach-In & Forum"
         },
         {
             "imagePath": "/hamChoiGameNight.jpg",
-            "title": "Ham Choi Game Night",
-            "date": "May 17, 2023"
+            "title": "Ham Choi Game Night"
+        },
+        {
+            "imagePath": "/anmung.png",
+            "title": "Ăn Mừng: a Community Celebration"
+        },
+        {
+            "imagePath": "/happyhour.JPG",
+            "title": "VPC Happy Hour"
         }
     ],
     "pastActionAlerts": [

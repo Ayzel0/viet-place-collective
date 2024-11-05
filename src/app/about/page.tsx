@@ -187,12 +187,12 @@ const Page = () => {
           break;
         case 'link':
           element = <span className='text-mint underline hover:text-pale-yellow transition-all'>
-            <a href={textContent.href}>{textContent.text}</a>
+            <a href={textContent.href} target='_blank'>{textContent.text}</a>
           </span>
           break;
         case 'bigLink': 
             element = <span className='px-5 py-2.5 rounded-lg bg-mint text-xl text-dark-jade hover:bg-pale-yellow transition-all'>
-              <a href={textContent.href}>{textContent.text}</a>
+              <a href={textContent.href} target='_blank'>{textContent.text}</a>
             </span>
             break;
       }

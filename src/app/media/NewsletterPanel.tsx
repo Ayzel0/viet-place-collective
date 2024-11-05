@@ -39,7 +39,7 @@ const NewsletterPanel = ({url}: {url: string}) => {
   return (
     <div className='h-full bg-mint rounded-xl p-5'>
       {articleData.title !== '' ?
-        <a href={url}>
+        <a href={url} target='_blank'>
           <div>
             {/* <p className='text-dark-jade'>{articleData.author}</p> */}
             <p className='text-lg text-dark-gold mb-2.5'>{articleData.siteName}</p>

@@ -82,7 +82,12 @@ export default async function Home() {
       case 'header3':
         element = <h3 id={textContent.text.split(' ').join('')} className={`mb-4 mt-8 text-tan lg:text-xl xl:text-2xl ${fraunces.className}`}>{textContent.text}</h3>
         break;
-      case 'link':
+      case 'externallink':
+        element = <span className='text-mint underline'>
+          <a href={textContent.href} target="_blank">{textContent.text}</a>
+        </span>
+        break;
+      case 'internallink':
         element = <span className='text-mint underline'>
           <a href={textContent.href}>{textContent.text}</a>
         </span>

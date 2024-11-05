@@ -65,7 +65,7 @@ const ExpandingFAQBox: React.FC<ExpectedProps> = ({ question, answer }) => {
         break;
       case 'link':
         element = <span className='text-mint underline'>
-          <a href={textContent.href}>{textContent.text}</a>
+          <a href={textContent.href} target='_blank'>{textContent.text}</a>
         </span>
         break;
     }
