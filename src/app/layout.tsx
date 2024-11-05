@@ -4,8 +4,15 @@ import Navbar from "./Navbar";
 import { cookies } from "next/headers";
 import { epilogue } from "./fonts";
 import BottomBar from "./BottomBar";
-import Image from "next/image";
-import BackgroundImage from "./BackgroundImage";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Viet Place Collective',
+  description: 'Website for Viet Place Collective, a volunteer organization advocating for the preservation of Eden Center in Northern Virginia.',
+  icons: {
+    icon: '/favicon.svg'
+  },
+}
 
 export default function RootLayout({
   children,
