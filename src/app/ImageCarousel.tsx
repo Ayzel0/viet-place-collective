@@ -66,7 +66,7 @@ const ImageCarousel = () => {
                 />
               </div>
               <div className={`${expandedImageIndex === index ? 'w-[40%]' : 'w-[0px]'} transition-[width] overflow-y-hidden ease-in-out duration-500 flex flex-col items-center justify-center bg-medium-jade overflow-x-hidden`}>
-                <h2 className='text-white px-2 text-nowrap whitespace-pre-wrap text-2xl text-center'>{imageCarouselContent[language][key].title}</h2>
+                <h2 className='text-white px-2 text-balance whitespace-pre-wrap text-2xl text-center'>{imageCarouselContent[language][key].title}</h2>
                 {imageCarouselContent[language][key].subtext &&
                   <p className={`text-white text-sm px-4 my-4 transition-[opacity] ${expandedImageIndex === index ? 'opacity-100 delay-500 ease-in-out duration-500' : 'opacity-0 duration-100'}`}>{imageCarouselContent[language][key].subtext}</p>
                 }
