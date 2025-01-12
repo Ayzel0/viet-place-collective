@@ -1,23 +1,27 @@
 {
     "eventsList": [
         {
-            "imagePath": "/disappearanceTeachIn.JPG",
-            "title": "The 'Disappearance' of Little Saigon Clarendon: Teach-In & Forum"
-        },
-        {
-            "imagePath": "/hamChoiGameNight.jpg",
-            "title": "Ham Choi Game Night"
-        },
-        {
             "imagePath": "/anmung.png",
             "title": "Ăn Mừng: a Community Celebration"
         },
         {
             "imagePath": "/happyhour.JPG",
             "title": "VPC Happy Hour"
+        },
+        {
+            "imagePath": "/disappearanceTeachIn.JPG",
+            "title": "The 'Disappearance' of Little Saigon Clarendon: Teach-In & Forum"
+        },
+        {
+            "imagePath": "/hamChoiGameNight.jpg",
+            "title": "Ham Choi Game Night"
         }
     ],
     "pastActionAlerts": [
+        {
+            "imagePath": "/actionAlertGraphics/GrahamCenterVHCEmailAction.png",
+            "link": "https://docs.google.com/document/d/1v43n_xy-aEnMIKkm5e_WJ8DpCvspk-6UcXW_4lynkSM/view"
+        },
         {
             "imagePath": "/actionAlertGraphics/ctaBusinessOwner.png"
         },
@@ -30,9 +34,6 @@
         {
             "imagePath": "/actionAlertGraphics/askYourElders.png",
             "link": "https://www.facebook.com/avietplace/posts/pfbid02rCGUWJRF5hVVcTgqPyw5Phd8D9eg8mZhcWZ6KspnCqA4L9h1uwt8aZVbP7VgG41Ql"
-        },
-        {
-            "imagePath": "/actionAlertGraphics/eastEndSurvey.png"
         }
     ],
     "volunteerDonate": {
